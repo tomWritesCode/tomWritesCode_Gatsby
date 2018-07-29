@@ -15,6 +15,7 @@ export default class PostPage extends Component {
             textAlign: 'right',
             display: 'inline-block',
             width: '100%',
+            marginTop: '25px',
           }}
         >{data.markdownRemark.frontmatter.date}
         </span>

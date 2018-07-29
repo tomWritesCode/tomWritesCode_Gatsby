@@ -4,8 +4,12 @@ import Link from 'gatsby-link';
 
 const Span = styled.div`
   display: block;
+  position: fixed;
+  top: 23vh;
+  left: -10px;
   width: 200px;
   height: 40px;
+  line-height: 30px;
   font-size: 22px;
   padding: 5px 20px;
   text-align: center;
@@ -13,7 +17,6 @@ const Span = styled.div`
   border-radius: 0 7px 7px 0;
   transition: ease-in-out 200ms;
   margin-bottom: 20px;
-  margin-left: -35px;
 
   &:hover {
     box-shadow: 3px 3px 15px #b2b2b2;

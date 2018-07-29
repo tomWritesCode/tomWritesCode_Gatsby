@@ -3,6 +3,7 @@ module.exports = {
     title: '< tomWritesCode />',
     desc: 'Level Up Tutorials Blog',
   },
+  pathPrefix: '/gatsby',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
