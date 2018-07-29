@@ -3,7 +3,7 @@ module.exports = {
     title: '< tomWritesCode />',
     desc: 'Level Up Tutorials Blog',
   },
-  pathPrefix: '/gatsby',
+  pathPrefix: '/tomWritesCode_Gatsby',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
@@ -29,5 +29,6 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-netlify-cms',
   ],
 };

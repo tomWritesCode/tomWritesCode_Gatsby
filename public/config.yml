@@ -1,0 +1,10 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+
+collections: 
+  - name: post
+    label: Posts 
+    folder: src/posts
+    create: true
