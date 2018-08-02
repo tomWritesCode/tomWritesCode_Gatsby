@@ -1,6 +1,6 @@
 var plugins = [{
-      plugin: require('/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-plugin-netlify-cms/gatsby-browser'),
-      options: {"plugins":[]},
+      plugin: require('/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-plugin-google-analytics/gatsby-browser'),
+      options: {"plugins":[],"trackingId":"UA-123148835-1","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"]},
     }]
 // During bootstrap, we write requires at top of this file which looks
 // basically like:

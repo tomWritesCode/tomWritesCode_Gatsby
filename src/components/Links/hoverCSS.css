@@ -1,0 +1,25 @@
+@keyframes wiggle {
+  0%{
+    transform: rotate(0deg);
+  }
+  33%{
+    transform: rotate(20deg);
+  }
+  66%{
+    transform: rotate(-20deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.logoHover:hover{
+  animation: wiggle 800ms;
+  -webkit-animation: wiggle 800ms;
+}
+
+.linkHover:hover{
+  animation: wiggle 800ms;
+  -webkit-animation: wiggle 800ms;
+  animation-direction: reverse;
+}

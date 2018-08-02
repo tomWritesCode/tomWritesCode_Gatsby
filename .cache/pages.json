@@ -3,15 +3,8 @@
         "componentChunkName": "component---src-posts-post-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-first-post.json",
-        "path": "/posts/firstPost/"
-    },
-    {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "dev-404-page.json",
-        "path": "/dev-404-page/"
+        "jsonName": "first-post-so-i-made-a-thing.json",
+        "path": "/first-post-so-i-made-a-thing"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

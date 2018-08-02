@@ -8,6 +8,8 @@ const Article = styled.article`
   padding: 15px 20px;
   border-radius: 8px;
   transition: ease-in-out 200ms;
+  text-decoration: none;
+  color: #16161d;
 
   &:hover {
     box-shadow: 3px 3px 15px #b2b2b2;
@@ -31,17 +33,13 @@ const P = styled.p`
 
 const PostListing = ({ post }) => (
   <div>
-    <Link
-      to={post.fields.slug}
-      style={{
-          textDecoration: 'none',
-          color: 'black',
-        }}
-    >
+    <Link to={`../${post.slug}`} style={{ textDecoration: 'none' }}>
       <Article>
-        <H3>{post.frontmatter.title}</H3>
-        <Span>{post.frontmatter.date}</Span>
-        <P>{post.excerpt}</P>
+        <H3>
+          {post.title}
+        </H3>
+        <Span>{post.createdAt}</Span>
+        <P>{post.body.childMarkdownRemark.excerpt}</P>
       </Article>
     </Link>
   </div>

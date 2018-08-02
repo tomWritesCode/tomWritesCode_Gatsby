@@ -48,7 +48,7 @@ export default class Header extends Component {
         this.wrapper.animate(
           [{ height: '20vh' }, { height: '50vh' }],
           {
-            duration: 200,
+            duration: 400,
             fill: 'forwards',
             easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
             iterations: 1,
@@ -62,7 +62,7 @@ export default class Header extends Component {
         this.wrapper.animate(
           [{ height: '50vh' }, { height: '20vh' }],
           {
-            duration: 200,
+            duration: 400,
             fill: 'forwards',
             easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
             iterations: 1,

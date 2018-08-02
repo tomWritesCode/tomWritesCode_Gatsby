@@ -1,2 +1,2 @@
-webpackJsonp([0x707066be12da],{353:function(t,a){t.exports={data:{markdownRemark:{html:"<h3>So lets start this blog right?</h3>",frontmatter:{title:"First post - So I made a thing",date:"July 22 2018"}}},pathContext:{slug:"/posts/firstPost/"}}}});
+webpackJsonp([0x707066be12da],{357:function(t,a){t.exports={data:{markdownRemark:{html:"<h3>So lets start this blog right?</h3>",frontmatter:{title:"First post - So I made a thing",date:"July 22 2018"}}},pathContext:{slug:"/posts/firstPost/"}}}});
 //# sourceMappingURL=path---posts-first-post-1f3ccee056167e295132.js.map

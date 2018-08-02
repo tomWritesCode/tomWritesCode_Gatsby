@@ -1,0 +1,2 @@
+@keyframes wiggle{0%{transform:rotate(0deg)}33%{transform:rotate(20deg)}66%{transform:rotate(-20deg)}to{transform:rotate(0deg)}}.linkHover:hover,.logoHover:hover{animation:wiggle .8s;-webkit-animation:wiggle .8s}.linkHover:hover{animation-direction:reverse}
+/*# sourceMappingURL=build-js-styles.css.map*/

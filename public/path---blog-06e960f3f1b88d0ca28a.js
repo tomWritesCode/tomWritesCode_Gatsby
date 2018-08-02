@@ -1,0 +1,2 @@
+webpackJsonp([49683490770531],{350:function(t,e){t.exports={data:{site:{siteMetadata:{title:"< tomWritesCode />",desc:"Website and Blog for Thomas Whitaker - Web Developer"}},allContentfulBlogPost:{edges:[{node:{title:"First post - So I made a thing",body:{childMarkdownRemark:{excerpt:"So lets start this blog right? Hello Check"}},createdAt:"July 29, 2018",slug:"first-post-so-i-made-a-thing",id:"c3YmvLBlIAUi6E460gWQMwU"}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---blog-06e960f3f1b88d0ca28a.js.map

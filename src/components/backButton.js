@@ -16,7 +16,6 @@ const Span = styled.div`
   background-color: rgba(142, 209, 252, 0.3);
   border-radius: 0 7px 7px 0;
   transition: ease-in-out 200ms;
-  margin-bottom: 20px;
 
   &:hover {
     box-shadow: 3px 3px 15px #b2b2b2;

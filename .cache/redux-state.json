@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4dce08f4a1f6357f5b445fab81c7144d",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -198,6 +188,176 @@
       "children": [],
       "internal": {
         "contentDigest": "1deddd795c699ac122ce6fac70e86e41",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.31",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-123148835-1",
+        "head": false,
+        "anonymize": true,
+        "respectDNT": true,
+        "exclude": [
+          "/preview/**",
+          "/do-not-track/me/too/"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.31",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1168c7944d21216896c9ae12ad3a804b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-contentful": {
+      "resolve": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-source-contentful",
+      "id": "Plugin gatsby-source-contentful",
+      "name": "gatsby-source-contentful",
+      "version": "1.3.54",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "i97majv0duw2",
+        "accessToken": "d4412090e9d9bea88a4d443ad00071a2461e200dc04a1052fc9814949095372b"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreBootstrap",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "1.3.54",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "37887732d20c7236b5fc262213d4c8b9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -450,145 +610,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-transformer-remark": {
-      "resolve": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-transformer-remark",
-      "id": "Plugin gatsby-transformer-remark",
-      "name": "gatsby-transformer-remark",
-      "version": "1.7.44",
-      "pluginOptions": {
-        "plugins": [],
-        "excerpt_separator": "<!-- end -->"
-      },
-      "nodeAPIs": [
-        "onCreateNode",
-        "setFieldsOnGraphQLNodeType"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-transformer-remark",
-      "packageJson": {
-        "name": "gatsby-transformer-remark",
-        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "1.7.44",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "markdown",
-          "remark"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "graphql-type-json",
-            "version": "^0.1.4"
-          },
-          {
-            "name": "gray-matter",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "hast-util-raw",
-            "version": "^2.0.2"
-          },
-          {
-            "name": "hast-util-to-html",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.4"
-          },
-          {
-            "name": "mdast-util-to-hast",
-            "version": "^2.4.0"
-          },
-          {
-            "name": "mdast-util-toc",
-            "version": "^2.0.1"
-          },
-          {
-            "name": "remark",
-            "version": "^7.0.1"
-          },
-          {
-            "name": "remark-parse",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "remark-retext",
-            "version": "^3.1.0"
-          },
-          {
-            "name": "remark-stringify",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "retext-english",
-            "version": "^3.0.0"
-          },
-          {
-            "name": "sanitize-html",
-            "version": "^1.14.1"
-          },
-          {
-            "name": "underscore.string",
-            "version": "^3.3.4"
-          },
-          {
-            "name": "unified",
-            "version": "^6.1.5"
-          },
-          {
-            "name": "unist-util-remove-position",
-            "version": "^1.1.1"
-          },
-          {
-            "name": "unist-util-select",
-            "version": "^1.5.0"
-          },
-          {
-            "name": "unist-util-visit",
-            "version": "^1.1.1"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "babel-plugin-transform-object-rest-spread",
-            "version": "^6.20.2"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "8346cbf85f61dde9b73715e2b41fa8cc",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin gatsby-transformer-sharp": {
       "resolve": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-transformer-sharp",
       "id": "Plugin gatsby-transformer-sharp",
@@ -769,51 +790,116 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-netlify-cms": {
-      "resolve": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-plugin-netlify-cms",
-      "id": "Plugin gatsby-plugin-netlify-cms",
-      "name": "gatsby-plugin-netlify-cms",
-      "version": "2.0.1",
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "modifyWebpackConfig"
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
       ],
-      "browserAPIs": [
-        "onInitialClientRender"
-      ],
+      "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-plugin-netlify-cms",
+      "pluginFilepath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/node_modules/gatsby-transformer-remark",
       "packageJson": {
-        "name": "gatsby-plugin-netlify-cms",
-        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
-        "version": "2.0.1",
-        "main": "index.js",
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
-          "netlify",
-          "netlify-cms",
-          "cms"
+          "markdown",
+          "remark"
         ],
         "author": {
-          "name": "Shawn Erquhart",
-          "email": "shawn@erquh.art"
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
         },
         "license": "MIT",
         "dependencies": [
           {
-            "name": "html-webpack-include-assets-plugin",
-            "version": "^1.0.2"
+            "name": "babel-runtime",
+            "version": "^6.26.0"
           },
           {
-            "name": "html-webpack-plugin",
-            "version": "^2.30.1"
+            "name": "bluebird",
+            "version": "^3.5.0"
           },
           {
-            "name": "netlify-identity-widget",
-            "version": "^1.4.11"
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
           }
         ],
         "devDependencies": [
@@ -822,31 +908,22 @@
             "version": "^6.26.0"
           },
           {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
             "name": "cross-env",
-            "version": "^5.1.3"
+            "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [
-          {
-            "name": "extract-text-webpack-plugin",
-            "version": "^1.0.1"
-          },
-          {
-            "name": "gatsby",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "netlify-cms",
-            "version": "^1.0.0"
-          }
-        ],
+        "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4e2a5bae12593d665bb86b3802b08898",
+        "contentDigest": "6d45a93a474bac7499a4e6850364ed73",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -855,12 +932,11 @@
       "resolve": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "f85f8b18c199ac3f45ea7eec892e2fb5",
+      "version": "007e8b8860e902f116a448d5a5198cb0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "onCreateNode",
         "createPages"
       ],
       "browserAPIs": [],
@@ -897,8 +973,8 @@
             "version": "^1.6.40"
           },
           {
-            "name": "gatsby-plugin-netlify-cms",
-            "version": "^2.0.1"
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.31"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -911,6 +987,10 @@
           {
             "name": "gatsby-plugin-styled-components",
             "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-source-contentful",
+            "version": "^1.3.54"
           },
           {
             "name": "gatsby-source-filesystem",
@@ -939,10 +1019,6 @@
         ],
         "devDependencies": [
           {
-            "name": "gh-pages",
-            "version": "^1.2.0"
-          },
-          {
             "name": "prettier",
             "version": "^1.12.0"
           }
@@ -954,7 +1030,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8613e11c06292c83508d4cf216008355",
+        "contentDigest": "5fb3864442e024cd31a5fcacc491b7f2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1044,28 +1120,59 @@
     "Site": {
       "siteMetadata": {
         "title": "< tomWritesCode />",
-        "desc": "Level Up Tutorials Blog"
+        "desc": "Website and Blog for Thomas Whitaker - Web Developer"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "/tomWritesCode_Gatsby",
       "polyfill": true,
-      "buildTime": "2018-07-29T15:22:37.864Z",
+      "buildTime": "2018-08-02T03:29:43.781Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d82fda31a605cc00b1726cc88d39fb16",
+        "contentDigest": "88646b0714f0d16ff1cdd5a12c831350",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
+    },
+    "Blog Post": {
+      "id": "Blog Post",
+      "parent": null,
+      "children": [],
+      "name": "Blog Post",
+      "displayField": "title",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "f9d3fe517ab1ddba3343c0c3a951b33d",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c3YmvLBlIAUi6E460gWQMwU": {
+      "title": "First post - So I made a thing",
+      "slug": "first-post-so-i-made-a-thing",
+      "createdAt": "2018-07-29T16:48:09.556Z",
+      "author": "By Thomas Whitaker",
+      "body___NODE": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode",
+      "id": "c3YmvLBlIAUi6E460gWQMwU",
+      "contentful_id": "3YmvLBlIAUi6E460gWQMwU",
+      "updatedAt": "2018-08-01T23:48:53.687Z",
+      "parent": "Blog Post",
+      "children": [
+        "c3YmvLBlIAUi6E460gWQMwUbodyTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "5679af6b2133d3f59a8ef303cda46632",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/ absPath of file": {
       "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/ absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "18e490b11985f607d50b34e3d46da292",
+        "contentDigest": "9b2bf66c12c364e10d1ecd7b05ac52ec",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -1077,7 +1184,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-07-22T15:19:10.176Z",
-      "accessTime": "2018-07-29T15:22:42.775Z",
+      "accessTime": "2018-08-02T03:29:58.237Z",
       "changeTime": "2018-07-28T11:51:58.845Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
@@ -1095,11 +1202,11 @@
       "blksize": 4194304,
       "ino": 8604044794,
       "blocks": 0,
-      "atimeMs": 1532877762775.145,
+      "atimeMs": 1533180598236.5615,
       "mtimeMs": 1532272750176.401,
       "ctimeMs": 1532778718845.4817,
       "birthtimeMs": 1532196246353.6013,
-      "atime": "2018-07-29T15:22:42.775Z",
+      "atime": "2018-08-02T03:29:58.237Z",
       "mtime": "2018-07-22T15:19:10.176Z",
       "ctime": "2018-07-28T11:51:58.845Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
@@ -1109,7 +1216,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c5a5bed1c65ce97c20a0f18373a69373",
+        "contentDigest": "085aaf8b3c0caf7291a23de6bea9b254",
         "type": "Directory",
         "description": "Directory \"src/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -1121,7 +1228,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-28T11:31:34.271Z",
-      "accessTime": "2018-07-29T15:22:42.778Z",
+      "accessTime": "2018-08-02T03:29:58.240Z",
       "changeTime": "2018-07-28T11:31:34.271Z",
       "birthTime": "2018-07-21T22:27:14.212Z",
       "root": "/",
@@ -1139,65 +1246,21 @@
       "blksize": 4194304,
       "ino": 8604146714,
       "blocks": 0,
-      "atimeMs": 1532877762777.908,
+      "atimeMs": 1533180598240.2,
       "mtimeMs": 1532777494270.8396,
       "ctimeMs": 1532777494270.8396,
       "birthtimeMs": 1532212034211.6978,
-      "atime": "2018-07-29T15:22:42.778Z",
+      "atime": "2018-08-02T03:29:58.240Z",
       "mtime": "2018-07-28T11:31:34.271Z",
       "ctime": "2018-07-28T11:31:34.271Z",
       "birthtime": "2018-07-21T22:27:14.212Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "0442583c2da3021496437d34bc1c4dae",
-        "type": "Directory",
-        "description": "Directory \"src/components\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components",
-      "relativePath": "components",
-      "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2018-07-29T05:30:15.885Z",
-      "accessTime": "2018-07-29T15:22:42.778Z",
-      "changeTime": "2018-07-29T05:30:15.885Z",
-      "birthTime": "2018-07-21T18:04:06.354Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src",
-      "base": "components",
-      "ext": "",
-      "name": "components",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 6,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8604044795,
-      "blocks": 0,
-      "atimeMs": 1532877762777.8562,
-      "mtimeMs": 1532842215884.7893,
-      "ctimeMs": 1532842215884.7893,
-      "birthtimeMs": 1532196246353.6516,
-      "atime": "2018-07-29T15:22:42.778Z",
-      "mtime": "2018-07-29T05:30:15.885Z",
-      "ctime": "2018-07-29T05:30:15.885Z",
-      "birthtime": "2018-07-21T18:04:06.354Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts absPath of file": {
       "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "226d4d747f0cbcbf8320d7e181638b9e",
+        "contentDigest": "757341bcad11781bff51ddfbe9ce619e",
         "type": "Directory",
         "description": "Directory \"src/layouts\"",
         "owner": "gatsby-source-filesystem"
@@ -1209,7 +1272,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-21T18:04:06.354Z",
-      "accessTime": "2018-07-29T15:22:42.778Z",
+      "accessTime": "2018-08-02T03:29:58.240Z",
       "changeTime": "2018-07-21T18:10:28.316Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
@@ -1227,13 +1290,57 @@
       "blksize": 4194304,
       "ino": 8604044797,
       "blocks": 0,
-      "atimeMs": 1532877762777.8635,
+      "atimeMs": 1533180598240.0327,
       "mtimeMs": 1532196246354.1084,
       "ctimeMs": 1532196628316.2139,
       "birthtimeMs": 1532196246353.8525,
-      "atime": "2018-07-29T15:22:42.778Z",
+      "atime": "2018-08-02T03:29:58.240Z",
       "mtime": "2018-07-21T18:04:06.354Z",
       "ctime": "2018-07-21T18:10:28.316Z",
+      "birthtime": "2018-07-21T18:04:06.354Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b120ca07ad7fe037d4553e79dea5356b",
+        "type": "Directory",
+        "description": "Directory \"src/components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-07-31T14:50:39.703Z",
+      "accessTime": "2018-08-02T03:29:58.240Z",
+      "changeTime": "2018-07-31T14:50:39.703Z",
+      "birthTime": "2018-07-21T18:04:06.354Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8604044795,
+      "blocks": 0,
+      "atimeMs": 1533180598239.949,
+      "mtimeMs": 1533048639703.4312,
+      "ctimeMs": 1533048639703.4312,
+      "birthtimeMs": 1532196246353.6516,
+      "atime": "2018-08-02T03:29:58.240Z",
+      "mtime": "2018-07-31T14:50:39.703Z",
+      "ctime": "2018-07-31T14:50:39.703Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages absPath of file": {
@@ -1241,7 +1348,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "64d17a9059293356d6235eb2f5a305f6",
+        "contentDigest": "eff688042f8c1d246a82298fb8137ac1",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1253,7 +1360,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-07-28T06:47:44.911Z",
-      "accessTime": "2018-07-29T15:22:42.778Z",
+      "accessTime": "2018-08-02T03:29:58.240Z",
       "changeTime": "2018-07-28T06:47:44.911Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
@@ -1271,11 +1378,11 @@
       "blksize": 4194304,
       "ino": 8604044800,
       "blocks": 0,
-      "atimeMs": 1532877762777.9014,
+      "atimeMs": 1533180598240.1772,
       "mtimeMs": 1532760464910.5227,
       "ctimeMs": 1532760464910.5227,
       "birthtimeMs": 1532196246354.2295,
-      "atime": "2018-07-29T15:22:42.778Z",
+      "atime": "2018-08-02T03:29:58.240Z",
       "mtime": "2018-07-28T06:47:44.911Z",
       "ctime": "2018-07-28T06:47:44.911Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
@@ -1285,7 +1392,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4b617112a40476be430320ee8efa1a8c",
+        "contentDigest": "1eaca8176a816e932e9a7999a26d07b1",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1294,11 +1401,11 @@
       "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts",
       "relativePath": "posts",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-07-28T08:02:37.662Z",
-      "accessTime": "2018-07-29T15:22:42.778Z",
-      "changeTime": "2018-07-28T08:02:37.662Z",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-07-29T16:35:42.129Z",
+      "accessTime": "2018-08-02T03:29:58.240Z",
+      "changeTime": "2018-07-29T16:35:42.129Z",
       "birthTime": "2018-07-22T15:19:10.176Z",
       "root": "/",
       "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src",
@@ -1308,20 +1415,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8604494890,
       "blocks": 0,
-      "atimeMs": 1532877762777.9482,
-      "mtimeMs": 1532764957662.1118,
-      "ctimeMs": 1532764957662.1118,
+      "atimeMs": 1533180598240.2214,
+      "mtimeMs": 1532882142128.9302,
+      "ctimeMs": 1532882142128.9302,
       "birthtimeMs": 1532272750176.3887,
-      "atime": "2018-07-29T15:22:42.778Z",
-      "mtime": "2018-07-28T08:02:37.662Z",
-      "ctime": "2018-07-28T08:02:37.662Z",
+      "atime": "2018-08-02T03:29:58.240Z",
+      "mtime": "2018-07-29T16:35:42.129Z",
+      "ctime": "2018-07-29T16:35:42.129Z",
       "birthtime": "2018-07-22T15:19:10.176Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images absPath of file": {
@@ -1329,7 +1436,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5177a3f6f74a06e7e6245067c4ad9a38",
+        "contentDigest": "517e2b695132bb5511fd2fef7bcb5313",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1338,11 +1445,11 @@
       "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images",
       "relativePath": "",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-07-28T06:50:35.825Z",
-      "accessTime": "2018-07-29T15:22:42.820Z",
-      "changeTime": "2018-07-28T06:50:35.825Z",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-07-31T08:27:11.898Z",
+      "accessTime": "2018-08-02T03:29:58.300Z",
+      "changeTime": "2018-07-31T08:27:11.898Z",
       "birthTime": "2018-07-21T22:27:27.140Z",
       "root": "/",
       "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets",
@@ -1352,20 +1459,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8604164680,
       "blocks": 0,
-      "atimeMs": 1532877762819.9678,
-      "mtimeMs": 1532760635824.9268,
-      "ctimeMs": 1532760635824.9268,
+      "atimeMs": 1533180598299.5735,
+      "mtimeMs": 1533025631898.3977,
+      "ctimeMs": 1533025631898.3977,
       "birthtimeMs": 1532212047139.7737,
-      "atime": "2018-07-29T15:22:42.820Z",
-      "mtime": "2018-07-28T06:50:35.825Z",
-      "ctime": "2018-07-28T06:50:35.825Z",
+      "atime": "2018-08-02T03:29:58.300Z",
+      "mtime": "2018-07-31T08:27:11.898Z",
+      "ctime": "2018-07-31T08:27:11.898Z",
       "birthtime": "2018-07-21T22:27:27.140Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Header absPath of file": {
@@ -1373,7 +1480,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7412366d1f7ef9f8e3962686ae35f516",
+        "contentDigest": "e4b9ad5dcf9e1fa0a107f1061df8395f",
         "type": "Directory",
         "description": "Directory \"src/components/Header\"",
         "owner": "gatsby-source-filesystem"
@@ -1385,7 +1492,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-22T13:37:26.026Z",
-      "accessTime": "2018-07-29T15:22:42.780Z",
+      "accessTime": "2018-08-02T03:29:58.243Z",
       "changeTime": "2018-07-22T13:37:26.026Z",
       "birthTime": "2018-07-22T13:37:13.129Z",
       "root": "/",
@@ -1403,11 +1510,11 @@
       "blksize": 4194304,
       "ino": 8604490633,
       "blocks": 0,
-      "atimeMs": 1532877762779.9065,
+      "atimeMs": 1533180598242.6096,
       "mtimeMs": 1532266646026.3967,
       "ctimeMs": 1532266646026.3967,
       "birthtimeMs": 1532266633128.711,
-      "atime": "2018-07-29T15:22:42.780Z",
+      "atime": "2018-08-02T03:29:58.243Z",
       "mtime": "2018-07-22T13:37:26.026Z",
       "ctime": "2018-07-22T13:37:26.026Z",
       "birthtime": "2018-07-22T13:37:13.129Z"
@@ -1417,7 +1524,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "72ba9b81f256a4a589825b6e45a3a95c",
+        "contentDigest": "84cb279338e0bc136bac7b57c3acdf6e",
         "type": "Directory",
         "description": "Directory \"src/components/Posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1429,7 +1536,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-29T05:30:11.360Z",
-      "accessTime": "2018-07-29T15:22:42.780Z",
+      "accessTime": "2018-08-02T03:29:58.243Z",
       "changeTime": "2018-07-29T05:30:11.360Z",
       "birthTime": "2018-07-22T15:20:50.222Z",
       "root": "/",
@@ -1447,21 +1554,65 @@
       "blksize": 4194304,
       "ino": 8604494947,
       "blocks": 0,
-      "atimeMs": 1532877762779.9163,
+      "atimeMs": 1533180598242.5647,
       "mtimeMs": 1532842211359.9175,
       "ctimeMs": 1532842211359.9175,
       "birthtimeMs": 1532272850221.5125,
-      "atime": "2018-07-29T15:22:42.780Z",
+      "atime": "2018-08-02T03:29:58.243Z",
       "mtime": "2018-07-29T05:30:11.360Z",
       "ctime": "2018-07-29T05:30:11.360Z",
       "birthtime": "2018-07-22T15:20:50.222Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5c155c05d06022180218cffe5ac63859",
+        "type": "Directory",
+        "description": "Directory \"src/components/Links\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links",
+      "relativePath": "components/Links",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-07-31T14:50:34.298Z",
+      "accessTime": "2018-08-02T03:29:58.243Z",
+      "changeTime": "2018-07-31T14:50:39.703Z",
+      "birthTime": "2018-07-31T14:49:44.183Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components",
+      "base": "Links",
+      "ext": "",
+      "name": "Links",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605236872,
+      "blocks": 0,
+      "atimeMs": 1533180598242.632,
+      "mtimeMs": 1533048634297.9858,
+      "ctimeMs": 1533048639703.431,
+      "birthtimeMs": 1533048584182.7117,
+      "atime": "2018-08-02T03:29:58.243Z",
+      "mtime": "2018-07-31T14:50:34.298Z",
+      "ctime": "2018-07-31T14:50:39.703Z",
+      "birthtime": "2018-07-31T14:49:44.183Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation absPath of file": {
       "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4344a760f80f3b734011b2068b6448d6",
+        "contentDigest": "3426a0104d5de220e1d11f9fe4bfd329",
         "type": "Directory",
         "description": "Directory \"src/components/Posts/Navigation\"",
         "owner": "gatsby-source-filesystem"
@@ -1473,7 +1624,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-29T05:30:32.250Z",
-      "accessTime": "2018-07-29T15:22:42.781Z",
+      "accessTime": "2018-08-02T03:29:58.244Z",
       "changeTime": "2018-07-29T05:30:32.250Z",
       "birthTime": "2018-07-29T05:30:11.360Z",
       "root": "/",
@@ -1491,11 +1642,11 @@
       "blksize": 4194304,
       "ino": 8605002064,
       "blocks": 0,
-      "atimeMs": 1532877762780.6455,
+      "atimeMs": 1533180598243.8665,
       "mtimeMs": 1532842232249.7786,
       "ctimeMs": 1532842232249.7786,
       "birthtimeMs": 1532842211359.899,
-      "atime": "2018-07-29T15:22:42.781Z",
+      "atime": "2018-08-02T03:29:58.244Z",
       "mtime": "2018-07-29T05:30:32.250Z",
       "ctime": "2018-07-29T05:30:32.250Z",
       "birthtime": "2018-07-29T05:30:11.360Z"
@@ -1505,7 +1656,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "48cca86d0fe928c5b616e8d0b5ed99d6",
+        "contentDigest": "45cf6f1a63e98f6ae7f29ae6e7590977",
         "mediaType": "application/octet-stream",
         "type": "File",
         "description": "File \"src/assets/.DS_Store\"",
@@ -1517,9 +1668,9 @@
       "extension": "",
       "size": 6148,
       "prettySize": "6.15 kB",
-      "modifiedTime": "2018-07-28T11:31:39.274Z",
-      "accessTime": "2018-07-29T13:13:17.431Z",
-      "changeTime": "2018-07-28T11:31:39.274Z",
+      "modifiedTime": "2018-07-31T08:20:18.637Z",
+      "accessTime": "2018-07-31T23:34:30.143Z",
+      "changeTime": "2018-07-31T08:20:18.637Z",
       "birthTime": "2018-07-21T22:27:30.341Z",
       "root": "/",
       "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets",
@@ -1536,222 +1687,42 @@
       "blksize": 4194304,
       "ino": 8604168924,
       "blocks": 16,
-      "atimeMs": 1532869997430.8928,
-      "mtimeMs": 1532777499274.4019,
-      "ctimeMs": 1532777499274.4019,
+      "atimeMs": 1533080070142.9763,
+      "mtimeMs": 1533025218636.842,
+      "ctimeMs": 1533025218636.842,
       "birthtimeMs": 1532212050341.204,
-      "atime": "2018-07-29T13:13:17.431Z",
-      "mtime": "2018-07-28T11:31:39.274Z",
-      "ctime": "2018-07-28T11:31:39.274Z",
+      "atime": "2018-07-31T23:34:30.143Z",
+      "mtime": "2018-07-31T08:20:18.637Z",
+      "ctime": "2018-07-31T08:20:18.637Z",
       "birthtime": "2018-07-21T22:27:30.341Z"
     },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/backButton.js absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/backButton.js absPath of file",
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts/index.js absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts/index.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a0508a2cd0b0cc4bb9cec7fb69eb54b8",
+        "contentDigest": "2be4962bc120e91b6c1f6aec1e02a50c",
         "mediaType": "application/javascript",
         "type": "File",
-        "description": "File \"src/components/backButton.js\"",
+        "description": "File \"src/layouts/index.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/backButton.js",
-      "relativePath": "components/backButton.js",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts/index.js",
+      "relativePath": "layouts/index.js",
       "extension": "js",
-      "size": 904,
-      "prettySize": "904 B",
-      "modifiedTime": "2018-07-29T08:12:21.360Z",
-      "accessTime": "2018-07-29T08:13:03.554Z",
-      "changeTime": "2018-07-29T08:12:21.360Z",
-      "birthTime": "2018-07-28T10:42:47.601Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components",
-      "base": "backButton.js",
-      "ext": ".js",
-      "name": "backButton",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8604888942,
-      "blocks": 8,
-      "atimeMs": 1532851983553.9138,
-      "mtimeMs": 1532851941360.321,
-      "ctimeMs": 1532851941360.321,
-      "birthtimeMs": 1532774567600.8672,
-      "atime": "2018-07-29T08:13:03.554Z",
-      "mtime": "2018-07-29T08:12:21.360Z",
-      "ctime": "2018-07-29T08:12:21.360Z",
-      "birthtime": "2018-07-28T10:42:47.601Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/404.js absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/404.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8d50d9a7e3f04ddcc5ff8d43b6effe79",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/pages/404.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/404.js",
-      "relativePath": "pages/404.js",
-      "extension": "js",
-      "size": 198,
-      "prettySize": "198 B",
-      "modifiedTime": "2018-07-21T18:04:06.354Z",
-      "accessTime": "2018-07-28T12:15:08.055Z",
-      "changeTime": "2018-07-21T18:10:28.316Z",
+      "size": 1203,
+      "prettySize": "1.2 kB",
+      "modifiedTime": "2018-07-31T23:08:57.741Z",
+      "accessTime": "2018-07-31T23:27:35.276Z",
+      "changeTime": "2018-07-31T23:08:57.741Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages",
-      "base": "404.js",
-      "ext": ".js",
-      "name": "404",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8604044801,
-      "blocks": 8,
-      "atimeMs": 1532780108054.511,
-      "mtimeMs": 1532196246354.3254,
-      "ctimeMs": 1532196628316.2788,
-      "birthtimeMs": 1532196246354.2783,
-      "atime": "2018-07-28T12:15:08.055Z",
-      "mtime": "2018-07-21T18:04:06.354Z",
-      "ctime": "2018-07-21T18:10:28.316Z",
-      "birthtime": "2018-07-21T18:04:06.354Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/blog.js absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/blog.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a71121bc51dd75bec0c3ece033327f27",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/pages/blog.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/blog.js",
-      "relativePath": "pages/blog.js",
-      "extension": "js",
-      "size": 791,
-      "prettySize": "791 B",
-      "modifiedTime": "2018-07-28T08:16:02.313Z",
-      "accessTime": "2018-07-28T12:15:08.786Z",
-      "changeTime": "2018-07-28T08:16:02.313Z",
-      "birthTime": "2018-07-28T06:47:44.910Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages",
-      "base": "blog.js",
-      "ext": ".js",
-      "name": "blog",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8604883166,
-      "blocks": 8,
-      "atimeMs": 1532780108786.2642,
-      "mtimeMs": 1532765762313.097,
-      "ctimeMs": 1532765762313.097,
-      "birthtimeMs": 1532760464909.6965,
-      "atime": "2018-07-28T12:15:08.786Z",
-      "mtime": "2018-07-28T08:16:02.313Z",
-      "ctime": "2018-07-28T08:16:02.313Z",
-      "birthtime": "2018-07-28T06:47:44.910Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/work.js absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/work.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "0d7e262e80195b93bde26fa134e99b6d",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/pages/work.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/work.js",
-      "relativePath": "pages/work.js",
-      "extension": "js",
-      "size": 281,
-      "prettySize": "281 B",
-      "modifiedTime": "2018-07-28T09:08:27.392Z",
-      "accessTime": "2018-07-28T12:15:08.054Z",
-      "changeTime": "2018-07-28T09:08:27.392Z",
-      "birthTime": "2018-07-28T06:47:44.911Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages",
-      "base": "work.js",
-      "ext": ".js",
-      "name": "work",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8604883167,
-      "blocks": 8,
-      "atimeMs": 1532780108054.4836,
-      "mtimeMs": 1532768907392.4612,
-      "ctimeMs": 1532768907392.4612,
-      "birthtimeMs": 1532760464910.5115,
-      "atime": "2018-07-28T12:15:08.054Z",
-      "mtime": "2018-07-28T09:08:27.392Z",
-      "ctime": "2018-07-28T09:08:27.392Z",
-      "birthtime": "2018-07-28T06:47:44.911Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/index.js absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/index.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "26ed938727bc503e01cf5af626459ffa",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/pages/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/index.js",
-      "relativePath": "pages/index.js",
-      "extension": "js",
-      "size": 283,
-      "prettySize": "283 B",
-      "modifiedTime": "2018-07-28T11:30:08.357Z",
-      "accessTime": "2018-07-28T12:15:08.055Z",
-      "changeTime": "2018-07-28T11:30:08.357Z",
-      "birthTime": "2018-07-21T18:04:06.354Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts",
       "base": "index.js",
       "ext": ".js",
       "name": "index",
-      "relativeDirectory": "pages",
+      "relativeDirectory": "layouts",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1759,44 +1730,44 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8604044802,
+      "ino": 8604044799,
       "blocks": 8,
-      "atimeMs": 1532780108054.5046,
-      "mtimeMs": 1532777408356.8088,
-      "ctimeMs": 1532777408356.8088,
-      "birthtimeMs": 1532196246354.4004,
-      "atime": "2018-07-28T12:15:08.055Z",
-      "mtime": "2018-07-28T11:30:08.357Z",
-      "ctime": "2018-07-28T11:30:08.357Z",
+      "atimeMs": 1533079655276.3547,
+      "mtimeMs": 1533078537740.6177,
+      "ctimeMs": 1533078537740.6177,
+      "birthtimeMs": 1532196246354.1018,
+      "atime": "2018-07-31T23:27:35.276Z",
+      "mtime": "2018-07-31T23:08:57.741Z",
+      "ctime": "2018-07-31T23:08:57.741Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
     },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/PostPage.js absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/PostPage.js absPath of file",
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/.DS_Store absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/.DS_Store absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9b7f9b13f62ab8969245a7afb7e6536c",
-        "mediaType": "application/javascript",
+        "contentDigest": "3c5f44e6a7435ca072ddfdda753a726d",
+        "mediaType": "application/octet-stream",
         "type": "File",
-        "description": "File \"src/posts/PostPage.js\"",
+        "description": "File \"src/.DS_Store\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/PostPage.js",
-      "relativePath": "posts/PostPage.js",
-      "extension": "js",
-      "size": 1002,
-      "prettySize": "1 kB",
-      "modifiedTime": "2018-07-29T08:10:33.409Z",
-      "accessTime": "2018-07-29T14:54:28.243Z",
-      "changeTime": "2018-07-29T08:10:33.409Z",
-      "birthTime": "2018-07-22T18:56:11.524Z",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 8196,
+      "prettySize": "8.2 kB",
+      "modifiedTime": "2018-07-31T14:50:28.103Z",
+      "accessTime": "2018-07-31T23:34:30.143Z",
+      "changeTime": "2018-07-31T14:50:28.103Z",
+      "birthTime": "2018-07-21T22:27:14.217Z",
       "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts",
-      "base": "PostPage.js",
-      "ext": ".js",
-      "name": "PostPage",
-      "relativeDirectory": "posts",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1804,63 +1775,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8604497133,
-      "blocks": 8,
-      "atimeMs": 1532876068243.329,
-      "mtimeMs": 1532851833408.6472,
-      "ctimeMs": 1532851833408.6472,
-      "birthtimeMs": 1532285771523.7156,
-      "atime": "2018-07-29T14:54:28.243Z",
-      "mtime": "2018-07-29T08:10:33.409Z",
-      "ctime": "2018-07-29T08:10:33.409Z",
-      "birthtime": "2018-07-22T18:56:11.524Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md absPath of file",
-      "children": [
-        "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9a7a2267ed6a04396a0367a82e95f640",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/posts/firstPost.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md",
-      "relativePath": "posts/firstPost.md",
-      "extension": "md",
-      "size": 103,
-      "prettySize": "103 B",
-      "modifiedTime": "2018-07-28T11:24:55.548Z",
-      "accessTime": "2018-07-28T11:24:57.413Z",
-      "changeTime": "2018-07-28T11:24:55.548Z",
-      "birthTime": "2018-07-22T14:49:07.339Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts",
-      "base": "firstPost.md",
-      "ext": ".md",
-      "name": "firstPost",
-      "relativeDirectory": "posts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8604494245,
-      "blocks": 8,
-      "atimeMs": 1532777097413.3796,
-      "mtimeMs": 1532777095548.3845,
-      "ctimeMs": 1532777095548.3845,
-      "birthtimeMs": 1532270947339.3796,
-      "atime": "2018-07-28T11:24:57.413Z",
-      "mtime": "2018-07-28T11:24:55.548Z",
-      "ctime": "2018-07-28T11:24:55.548Z",
-      "birthtime": "2018-07-22T14:49:07.339Z"
+      "ino": 8604146719,
+      "blocks": 24,
+      "atimeMs": 1533080070142.9685,
+      "mtimeMs": 1533048628102.8242,
+      "ctimeMs": 1533048628102.8242,
+      "birthtimeMs": 1532212034217.386,
+      "atime": "2018-07-31T23:34:30.143Z",
+      "mtime": "2018-07-31T14:50:28.103Z",
+      "ctime": "2018-07-31T14:50:28.103Z",
+      "birthtime": "2018-07-21T22:27:14.217Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts/index.css absPath of file": {
       "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts/index.css absPath of file",
@@ -1880,7 +1804,7 @@
       "size": 11244,
       "prettySize": "11.2 kB",
       "modifiedTime": "2018-07-21T18:04:06.354Z",
-      "accessTime": "2018-07-28T10:45:21.009Z",
+      "accessTime": "2018-07-31T23:11:35.614Z",
       "changeTime": "2018-07-21T18:10:28.316Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
@@ -1898,42 +1822,87 @@
       "blksize": 4194304,
       "ino": 8604044798,
       "blocks": 24,
-      "atimeMs": 1532774721009.2598,
+      "atimeMs": 1533078695613.9575,
       "mtimeMs": 1532196246353.9841,
       "ctimeMs": 1532196628316.1948,
       "birthtimeMs": 1532196246353.9026,
-      "atime": "2018-07-28T10:45:21.009Z",
+      "atime": "2018-07-31T23:11:35.614Z",
       "mtime": "2018-07-21T18:04:06.354Z",
       "ctime": "2018-07-21T18:10:28.316Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
     },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts/index.js absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts/index.js absPath of file",
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/404.js absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/404.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a2f8a4a85ed250c5cf43e4b8b42b9c90",
+        "contentDigest": "8d50d9a7e3f04ddcc5ff8d43b6effe79",
         "mediaType": "application/javascript",
         "type": "File",
-        "description": "File \"src/layouts/index.js\"",
+        "description": "File \"src/pages/404.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts/index.js",
-      "relativePath": "layouts/index.js",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/404.js",
+      "relativePath": "pages/404.js",
       "extension": "js",
-      "size": 1060,
-      "prettySize": "1.06 kB",
-      "modifiedTime": "2018-07-29T06:10:40.280Z",
-      "accessTime": "2018-07-29T06:10:41.434Z",
-      "changeTime": "2018-07-29T06:10:40.280Z",
+      "size": 198,
+      "prettySize": "198 B",
+      "modifiedTime": "2018-07-21T18:04:06.354Z",
+      "accessTime": "2018-07-31T23:27:35.276Z",
+      "changeTime": "2018-07-21T18:10:28.316Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/layouts",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8604044801,
+      "blocks": 8,
+      "atimeMs": 1533079655276.3618,
+      "mtimeMs": 1532196246354.3254,
+      "ctimeMs": 1532196628316.2788,
+      "birthtimeMs": 1532196246354.2783,
+      "atime": "2018-07-31T23:27:35.276Z",
+      "mtime": "2018-07-21T18:04:06.354Z",
+      "ctime": "2018-07-21T18:10:28.316Z",
+      "birthtime": "2018-07-21T18:04:06.354Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/index.js absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "893177611be8439edd2db7e94c7f82bd",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 1509,
+      "prettySize": "1.51 kB",
+      "modifiedTime": "2018-07-31T23:58:24.379Z",
+      "accessTime": "2018-07-31T23:58:24.379Z",
+      "changeTime": "2018-07-31T23:58:24.379Z",
+      "birthTime": "2018-07-21T18:04:06.354Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages",
       "base": "index.js",
       "ext": ".js",
       "name": "index",
-      "relativeDirectory": "layouts",
+      "relativeDirectory": "pages",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1941,44 +1910,44 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8604044799,
+      "ino": 8604044802,
       "blocks": 8,
-      "atimeMs": 1532844641434.2197,
-      "mtimeMs": 1532844640279.848,
-      "ctimeMs": 1532844640279.848,
-      "birthtimeMs": 1532196246354.1018,
-      "atime": "2018-07-29T06:10:41.434Z",
-      "mtime": "2018-07-29T06:10:40.280Z",
-      "ctime": "2018-07-29T06:10:40.280Z",
+      "atimeMs": 1533081504378.6814,
+      "mtimeMs": 1533081504379.2502,
+      "ctimeMs": 1533081504379.2502,
+      "birthtimeMs": 1532196246354.4004,
+      "atime": "2018-07-31T23:58:24.379Z",
+      "mtime": "2018-07-31T23:58:24.379Z",
+      "ctime": "2018-07-31T23:58:24.379Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
     },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/.DS_Store absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/.DS_Store absPath of file",
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/PostPage.js absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/PostPage.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8d2fcbbb44e4f7609e96062f26b6158d",
-        "mediaType": "application/octet-stream",
+        "contentDigest": "7e856616f55129909f0615f0556b1fa3",
+        "mediaType": "application/javascript",
         "type": "File",
-        "description": "File \"src/assets/images/.DS_Store\"",
+        "description": "File \"src/posts/PostPage.js\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/.DS_Store",
-      "relativePath": "assets/images/.DS_Store",
-      "extension": "",
-      "size": 6148,
-      "prettySize": "6.15 kB",
-      "modifiedTime": "2018-07-28T08:44:21.480Z",
-      "accessTime": "2018-07-29T08:05:31.081Z",
-      "changeTime": "2018-07-28T08:44:21.480Z",
-      "birthTime": "2018-07-21T22:27:35.349Z",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/PostPage.js",
+      "relativePath": "posts/PostPage.js",
+      "extension": "js",
+      "size": 1233,
+      "prettySize": "1.23 kB",
+      "modifiedTime": "2018-08-01T23:55:43.191Z",
+      "accessTime": "2018-08-01T23:55:43.191Z",
+      "changeTime": "2018-08-01T23:55:43.191Z",
+      "birthTime": "2018-07-22T18:56:11.524Z",
       "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images",
-      "base": ".DS_Store",
-      "ext": "",
-      "name": ".DS_Store",
-      "relativeDirectory": "assets/images",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts",
+      "base": "PostPage.js",
+      "ext": ".js",
+      "name": "PostPage",
+      "relativeDirectory": "posts",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1986,16 +1955,61 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8604175564,
-      "blocks": 16,
-      "atimeMs": 1532851531080.7185,
-      "mtimeMs": 1532767461480.2385,
-      "ctimeMs": 1532767461480.2385,
-      "birthtimeMs": 1532212055348.937,
-      "atime": "2018-07-29T08:05:31.081Z",
-      "mtime": "2018-07-28T08:44:21.480Z",
-      "ctime": "2018-07-28T08:44:21.480Z",
-      "birthtime": "2018-07-21T22:27:35.349Z"
+      "ino": 8604497133,
+      "blocks": 8,
+      "atimeMs": 1533167743190.5378,
+      "mtimeMs": 1533167743191.3164,
+      "ctimeMs": 1533167743191.3164,
+      "birthtimeMs": 1532285771523.7156,
+      "atime": "2018-08-01T23:55:43.191Z",
+      "mtime": "2018-08-01T23:55:43.191Z",
+      "ctime": "2018-08-01T23:55:43.191Z",
+      "birthtime": "2018-07-22T18:56:11.524Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/blog.js absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/blog.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "41f628e290cab0d4af2e395dc1e5afa6",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/blog.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/blog.js",
+      "relativePath": "pages/blog.js",
+      "extension": "js",
+      "size": 629,
+      "prettySize": "629 B",
+      "modifiedTime": "2018-07-30T05:45:25.593Z",
+      "accessTime": "2018-07-31T23:27:35.276Z",
+      "changeTime": "2018-07-30T05:45:25.593Z",
+      "birthTime": "2018-07-28T06:47:44.910Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages",
+      "base": "blog.js",
+      "ext": ".js",
+      "name": "blog",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8604883166,
+      "blocks": 8,
+      "atimeMs": 1533079655276.3687,
+      "mtimeMs": 1532929525592.8706,
+      "ctimeMs": 1532929525592.8706,
+      "birthtimeMs": 1532760464909.6965,
+      "atime": "2018-07-31T23:27:35.276Z",
+      "mtime": "2018-07-30T05:45:25.593Z",
+      "ctime": "2018-07-30T05:45:25.593Z",
+      "birthtime": "2018-07-28T06:47:44.910Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/about.js absPath of file": {
       "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/about.js absPath of file",
@@ -2015,7 +2029,7 @@
       "size": 586,
       "prettySize": "586 B",
       "modifiedTime": "2018-07-28T07:56:16.995Z",
-      "accessTime": "2018-07-28T12:15:08.054Z",
+      "accessTime": "2018-07-31T23:27:35.276Z",
       "changeTime": "2018-07-28T07:56:16.995Z",
       "birthTime": "2018-07-21T22:06:49.559Z",
       "root": "/",
@@ -2033,21 +2047,389 @@
       "blksize": 4194304,
       "ino": 8604076196,
       "blocks": 8,
-      "atimeMs": 1532780108054.4963,
+      "atimeMs": 1533079655276.3652,
       "mtimeMs": 1532764576994.7202,
       "ctimeMs": 1532764576994.7202,
       "birthtimeMs": 1532210809558.8845,
-      "atime": "2018-07-28T12:15:08.054Z",
+      "atime": "2018-07-31T23:27:35.276Z",
       "mtime": "2018-07-28T07:56:16.995Z",
       "ctime": "2018-07-28T07:56:16.995Z",
       "birthtime": "2018-07-21T22:06:49.559Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/work.js absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/work.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4b4c06bd82c8383b6fae29a2aef4b61f",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/work.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/work.js",
+      "relativePath": "pages/work.js",
+      "extension": "js",
+      "size": 348,
+      "prettySize": "348 B",
+      "modifiedTime": "2018-07-31T15:23:46.618Z",
+      "accessTime": "2018-07-31T23:27:35.276Z",
+      "changeTime": "2018-07-31T15:23:46.618Z",
+      "birthTime": "2018-07-28T06:47:44.911Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages",
+      "base": "work.js",
+      "ext": ".js",
+      "name": "work",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8604883167,
+      "blocks": 8,
+      "atimeMs": 1533079655276.376,
+      "mtimeMs": 1533050626618.3225,
+      "ctimeMs": 1533050626618.3225,
+      "birthtimeMs": 1532760464910.5115,
+      "atime": "2018-07-31T23:27:35.276Z",
+      "mtime": "2018-07-31T15:23:46.618Z",
+      "ctime": "2018-07-31T15:23:46.618Z",
+      "birthtime": "2018-07-28T06:47:44.911Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/backButton.js absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/backButton.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bdc0fe26c92295eec322bf0c4550fa9a",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/backButton.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/backButton.js",
+      "relativePath": "components/backButton.js",
+      "extension": "js",
+      "size": 881,
+      "prettySize": "881 B",
+      "modifiedTime": "2018-07-30T02:31:27.810Z",
+      "accessTime": "2018-07-31T23:27:31.857Z",
+      "changeTime": "2018-07-30T02:31:27.810Z",
+      "birthTime": "2018-07-28T10:42:47.601Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components",
+      "base": "backButton.js",
+      "ext": ".js",
+      "name": "backButton",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8604888942,
+      "blocks": 8,
+      "atimeMs": 1533079651856.9626,
+      "mtimeMs": 1532917887810.2356,
+      "ctimeMs": 1532917887810.2356,
+      "birthtimeMs": 1532774567600.8672,
+      "atime": "2018-07-31T23:27:31.857Z",
+      "mtime": "2018-07-30T02:31:27.810Z",
+      "ctime": "2018-07-30T02:31:27.810Z",
+      "birthtime": "2018-07-28T10:42:47.601Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/.DS_Store absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7b863a6260697f6cc2f36f0d76e17493",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/components/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/.DS_Store",
+      "relativePath": "components/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-07-31T19:38:09.374Z",
+      "accessTime": "2018-07-31T23:34:30.143Z",
+      "changeTime": "2018-07-31T19:38:09.374Z",
+      "birthTime": "2018-07-27T15:24:32.679Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "components",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8604858985,
+      "blocks": 16,
+      "atimeMs": 1533080070142.9846,
+      "mtimeMs": 1533065889373.958,
+      "ctimeMs": 1533065889373.958,
+      "birthtimeMs": 1532705072678.7292,
+      "atime": "2018-07-31T23:34:30.143Z",
+      "mtime": "2018-07-31T19:38:09.374Z",
+      "ctime": "2018-07-31T19:38:09.374Z",
+      "birthtime": "2018-07-27T15:24:32.679Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/.DS_Store absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8d2fcbbb44e4f7609e96062f26b6158d",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/assets/images/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/.DS_Store",
+      "relativePath": "assets/images/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-07-28T08:44:21.480Z",
+      "accessTime": "2018-07-31T23:11:35.613Z",
+      "changeTime": "2018-07-28T08:44:21.480Z",
+      "birthTime": "2018-07-21T22:27:35.349Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "assets/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8604175564,
+      "blocks": 16,
+      "atimeMs": 1533078695613.1335,
+      "mtimeMs": 1532767461480.2385,
+      "ctimeMs": 1532767461480.2385,
+      "birthtimeMs": 1532212055348.937,
+      "atime": "2018-07-31T23:11:35.613Z",
+      "mtime": "2018-07-28T08:44:21.480Z",
+      "ctime": "2018-07-28T08:44:21.480Z",
+      "birthtime": "2018-07-21T22:27:35.349Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/twitter.png absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/twitter.png absPath of file",
+      "children": [
+        "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/twitter.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "09ae989c1160fc17fe6518006563b3e8",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/twitter.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/twitter.png",
+      "relativePath": "assets/images/twitter.png",
+      "extension": "png",
+      "size": 6182,
+      "prettySize": "6.18 kB",
+      "modifiedTime": "2017-11-17T00:15:43.046Z",
+      "accessTime": "2018-07-31T23:21:06.650Z",
+      "changeTime": "2018-07-31T08:27:11.898Z",
+      "birthTime": "2017-11-07T09:51:22.000Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images",
+      "base": "twitter.png",
+      "ext": ".png",
+      "name": "twitter",
+      "relativeDirectory": "assets/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598248624,
+      "blocks": 16,
+      "atimeMs": 1533079266649.6296,
+      "mtimeMs": 1510877743046.1885,
+      "ctimeMs": 1533025631898.3977,
+      "birthtimeMs": 1510048282000,
+      "atime": "2018-07-31T23:21:06.650Z",
+      "mtime": "2017-11-17T00:15:43.046Z",
+      "ctime": "2018-07-31T08:27:11.898Z",
+      "birthtime": "2017-11-07T09:51:22.000Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/codepen.png absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/codepen.png absPath of file",
+      "children": [
+        "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/codepen.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "eb28d4a64b32132f9210d6fc775bdb86",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/codepen.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/codepen.png",
+      "relativePath": "assets/images/codepen.png",
+      "extension": "png",
+      "size": 6077,
+      "prettySize": "6.08 kB",
+      "modifiedTime": "2017-11-17T00:16:03.856Z",
+      "accessTime": "2018-07-31T23:21:06.650Z",
+      "changeTime": "2018-07-31T08:27:11.884Z",
+      "birthTime": "2017-11-09T21:08:22.000Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images",
+      "base": "codepen.png",
+      "ext": ".png",
+      "name": "codepen",
+      "relativeDirectory": "assets/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598248622,
+      "blocks": 16,
+      "atimeMs": 1533079266649.609,
+      "mtimeMs": 1510877763856.2957,
+      "ctimeMs": 1533025631883.6704,
+      "birthtimeMs": 1510261702000,
+      "atime": "2018-07-31T23:21:06.650Z",
+      "mtime": "2017-11-17T00:16:03.856Z",
+      "ctime": "2018-07-31T08:27:11.884Z",
+      "birthtime": "2017-11-09T21:08:22.000Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/linkedin.png absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/linkedin.png absPath of file",
+      "children": [
+        "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/linkedin.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a70d6274fefd6cbba1dd9aec3737dd4e",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/linkedin.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/linkedin.png",
+      "relativePath": "assets/images/linkedin.png",
+      "extension": "png",
+      "size": 11819,
+      "prettySize": "11.8 kB",
+      "modifiedTime": "2018-05-10T14:22:04.224Z",
+      "accessTime": "2018-07-31T23:21:06.650Z",
+      "changeTime": "2018-07-31T08:27:11.895Z",
+      "birthTime": "2018-05-10T14:01:53.281Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images",
+      "base": "linkedin.png",
+      "ext": ".png",
+      "name": "linkedin",
+      "relativeDirectory": "assets/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598258273,
+      "blocks": 24,
+      "atimeMs": 1533079266649.6213,
+      "mtimeMs": 1525962124223.9133,
+      "ctimeMs": 1533025631894.7822,
+      "birthtimeMs": 1525960913281.1638,
+      "atime": "2018-07-31T23:21:06.650Z",
+      "mtime": "2018-05-10T14:22:04.224Z",
+      "ctime": "2018-07-31T08:27:11.895Z",
+      "birthtime": "2018-05-10T14:01:53.281Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/github.png absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/github.png absPath of file",
+      "children": [
+        "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/github.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "84ee0ad13b95bfa655019a268de33cb0",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/github.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/github.png",
+      "relativePath": "assets/images/github.png",
+      "extension": "png",
+      "size": 23978,
+      "prettySize": "24 kB",
+      "modifiedTime": "2017-11-17T00:15:13.652Z",
+      "accessTime": "2018-07-31T23:21:06.650Z",
+      "changeTime": "2018-07-31T08:27:11.892Z",
+      "birthTime": "2017-11-07T09:50:57.000Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images",
+      "base": "github.png",
+      "ext": ".png",
+      "name": "github",
+      "relativeDirectory": "assets/images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598248623,
+      "blocks": 48,
+      "atimeMs": 1533079266649.6152,
+      "mtimeMs": 1510877713652.4512,
+      "ctimeMs": 1533025631891.6077,
+      "birthtimeMs": 1510048257000,
+      "atime": "2018-07-31T23:21:06.650Z",
+      "mtime": "2017-11-17T00:15:13.652Z",
+      "ctime": "2018-07-31T08:27:11.892Z",
+      "birthtime": "2017-11-07T09:50:57.000Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Header/index.js absPath of file": {
       "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Header/index.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cb58b56e8e84d26966901ccda2dde831",
+        "contentDigest": "fc5f1cc1c4cadb67e7851630f33b57d8",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/Header/index.js\"",
@@ -2059,9 +2441,9 @@
       "extension": "js",
       "size": 2632,
       "prettySize": "2.63 kB",
-      "modifiedTime": "2018-07-29T10:22:04.572Z",
-      "accessTime": "2018-07-29T14:51:54.109Z",
-      "changeTime": "2018-07-29T10:22:04.572Z",
+      "modifiedTime": "2018-07-31T00:20:46.635Z",
+      "accessTime": "2018-07-31T23:34:30.143Z",
+      "changeTime": "2018-07-31T00:20:46.635Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
       "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Header",
@@ -2078,21 +2460,196 @@
       "blksize": 4194304,
       "ino": 8604044796,
       "blocks": 8,
-      "atimeMs": 1532875914108.7517,
-      "mtimeMs": 1532859724572.203,
-      "ctimeMs": 1532859724572.203,
+      "atimeMs": 1533080070142.993,
+      "mtimeMs": 1532996446634.8604,
+      "ctimeMs": 1532996446634.8604,
       "birthtimeMs": 1532196246353.7095,
-      "atime": "2018-07-29T14:51:54.109Z",
-      "mtime": "2018-07-29T10:22:04.572Z",
-      "ctime": "2018-07-29T10:22:04.572Z",
+      "atime": "2018-07-31T23:34:30.143Z",
+      "mtime": "2018-07-31T00:20:46.635Z",
+      "ctime": "2018-07-31T00:20:46.635Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links/links.js absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links/links.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "32b6d9bf5b6b23b2c2396c53f0326d1f",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/components/Links/links.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links/links.js",
+      "relativePath": "components/Links/links.js",
+      "extension": "js",
+      "size": 2685,
+      "prettySize": "2.69 kB",
+      "modifiedTime": "2018-07-31T23:22:08.763Z",
+      "accessTime": "2018-07-31T23:30:36.439Z",
+      "changeTime": "2018-07-31T23:22:08.763Z",
+      "birthTime": "2018-07-31T14:49:53.836Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links",
+      "base": "links.js",
+      "ext": ".js",
+      "name": "links",
+      "relativeDirectory": "components/Links",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605236913,
+      "blocks": 8,
+      "atimeMs": 1533079836438.8801,
+      "mtimeMs": 1533079328762.645,
+      "ctimeMs": 1533079328762.645,
+      "birthtimeMs": 1533048593836.2366,
+      "atime": "2018-07-31T23:30:36.439Z",
+      "mtime": "2018-07-31T23:22:08.763Z",
+      "ctime": "2018-07-31T23:22:08.763Z",
+      "birthtime": "2018-07-31T14:49:53.836Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/twitter.png absPath of file >> ImageSharp": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/twitter.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/twitter.png absPath of file",
+      "internal": {
+        "contentDigest": "09ae989c1160fc17fe6518006563b3e8",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/codepen.png absPath of file >> ImageSharp": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/codepen.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/codepen.png absPath of file",
+      "internal": {
+        "contentDigest": "eb28d4a64b32132f9210d6fc775bdb86",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/linkedin.png absPath of file >> ImageSharp": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/linkedin.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/linkedin.png absPath of file",
+      "internal": {
+        "contentDigest": "a70d6274fefd6cbba1dd9aec3737dd4e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/github.png absPath of file >> ImageSharp": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/github.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/github.png absPath of file",
+      "internal": {
+        "contentDigest": "84ee0ad13b95bfa655019a268de33cb0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links/hoverCSS.css absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links/hoverCSS.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a2696fd7166a9c7fd77ac194573048de",
+        "mediaType": "text/css",
+        "type": "File",
+        "description": "File \"src/components/Links/hoverCSS.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links/hoverCSS.css",
+      "relativePath": "components/Links/hoverCSS.css",
+      "extension": "css",
+      "size": 383,
+      "prettySize": "383 B",
+      "modifiedTime": "2018-07-31T23:06:15.688Z",
+      "accessTime": "2018-07-31T23:11:35.613Z",
+      "changeTime": "2018-07-31T23:06:15.688Z",
+      "birthTime": "2018-05-12T04:01:21.522Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Links",
+      "base": "hoverCSS.css",
+      "ext": ".css",
+      "name": "hoverCSS",
+      "relativeDirectory": "components/Links",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605236972,
+      "blocks": 8,
+      "atimeMs": 1533078695613.4526,
+      "mtimeMs": 1533078375688.1895,
+      "ctimeMs": 1533078375688.1895,
+      "birthtimeMs": 1526097681521.8225,
+      "atime": "2018-07-31T23:11:35.613Z",
+      "mtime": "2018-07-31T23:06:15.688Z",
+      "ctime": "2018-07-31T23:06:15.688Z",
+      "birthtime": "2018-05-12T04:01:21.522Z"
+    },
+    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation/nav.css absPath of file": {
+      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation/nav.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "02c3017aea40c7a06acc1816f1ce2b9c",
+        "mediaType": "text/css",
+        "type": "File",
+        "description": "File \"src/components/Posts/Navigation/nav.css\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation/nav.css",
+      "relativePath": "components/Posts/Navigation/nav.css",
+      "extension": "css",
+      "size": 1047,
+      "prettySize": "1.05 kB",
+      "modifiedTime": "2018-07-29T06:44:57.889Z",
+      "accessTime": "2018-07-31T23:11:35.614Z",
+      "changeTime": "2018-07-29T06:44:57.889Z",
+      "birthTime": "2018-07-29T05:30:32.250Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation",
+      "base": "nav.css",
+      "ext": ".css",
+      "name": "nav",
+      "relativeDirectory": "components/Posts/Navigation",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8605002086,
+      "blocks": 8,
+      "atimeMs": 1533078695613.5664,
+      "mtimeMs": 1532846697888.842,
+      "ctimeMs": 1532846697888.842,
+      "birthtimeMs": 1532842232249.766,
+      "atime": "2018-07-31T23:11:35.614Z",
+      "mtime": "2018-07-29T06:44:57.889Z",
+      "ctime": "2018-07-29T06:44:57.889Z",
+      "birthtime": "2018-07-29T05:30:32.250Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/PostListing.js absPath of file": {
       "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/PostListing.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b178acc2927d486cfe6f76a4267a3853",
+        "contentDigest": "191c11e69a432e3b3c5fd98e884d30c0",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/Posts/PostListing.js\"",
@@ -2102,11 +2659,11 @@
       "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/PostListing.js",
       "relativePath": "components/Posts/PostListing.js",
       "extension": "js",
-      "size": 964,
-      "prettySize": "964 B",
-      "modifiedTime": "2018-07-29T01:02:38.216Z",
-      "accessTime": "2018-07-29T01:02:39.966Z",
-      "changeTime": "2018-07-29T01:02:38.216Z",
+      "size": 972,
+      "prettySize": "972 B",
+      "modifiedTime": "2018-07-31T23:13:28.766Z",
+      "accessTime": "2018-07-31T23:30:36.264Z",
+      "changeTime": "2018-07-31T23:13:28.766Z",
       "birthTime": "2018-07-22T15:21:10.194Z",
       "root": "/",
       "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts",
@@ -2123,13 +2680,13 @@
       "blksize": 4194304,
       "ino": 8604494954,
       "blocks": 8,
-      "atimeMs": 1532826159966.229,
-      "mtimeMs": 1532826158215.9697,
-      "ctimeMs": 1532826158215.9697,
+      "atimeMs": 1533079836264.3528,
+      "mtimeMs": 1533078808766.2947,
+      "ctimeMs": 1533078808766.2947,
       "birthtimeMs": 1532272870194.3062,
-      "atime": "2018-07-29T01:02:39.966Z",
-      "mtime": "2018-07-29T01:02:38.216Z",
-      "ctime": "2018-07-29T01:02:38.216Z",
+      "atime": "2018-07-31T23:30:36.264Z",
+      "mtime": "2018-07-31T23:13:28.766Z",
+      "ctime": "2018-07-31T23:13:28.766Z",
       "birthtime": "2018-07-22T15:21:10.194Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation/Navigation.js absPath of file": {
@@ -2150,7 +2707,7 @@
       "size": 2252,
       "prettySize": "2.25 kB",
       "modifiedTime": "2018-07-29T06:52:02.839Z",
-      "accessTime": "2018-07-29T13:07:36.807Z",
+      "accessTime": "2018-07-31T23:27:31.857Z",
       "changeTime": "2018-07-29T06:52:02.839Z",
       "birthTime": "2018-07-29T00:06:39.342Z",
       "root": "/",
@@ -2168,175 +2725,14 @@
       "blksize": 4194304,
       "ino": 8604978350,
       "blocks": 8,
-      "atimeMs": 1532869656807.066,
+      "atimeMs": 1533079651856.8623,
       "mtimeMs": 1532847122839.102,
       "ctimeMs": 1532847122839.102,
       "birthtimeMs": 1532822799341.8726,
-      "atime": "2018-07-29T13:07:36.807Z",
+      "atime": "2018-07-31T23:27:31.857Z",
       "mtime": "2018-07-29T06:52:02.839Z",
       "ctime": "2018-07-29T06:52:02.839Z",
       "birthtime": "2018-07-29T00:06:39.342Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation/nav.css absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation/nav.css absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "02c3017aea40c7a06acc1816f1ce2b9c",
-        "mediaType": "text/css",
-        "type": "File",
-        "description": "File \"src/components/Posts/Navigation/nav.css\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation/nav.css",
-      "relativePath": "components/Posts/Navigation/nav.css",
-      "extension": "css",
-      "size": 1047,
-      "prettySize": "1.05 kB",
-      "modifiedTime": "2018-07-29T06:44:57.889Z",
-      "accessTime": "2018-07-29T06:44:57.887Z",
-      "changeTime": "2018-07-29T06:44:57.889Z",
-      "birthTime": "2018-07-29T05:30:32.250Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation",
-      "base": "nav.css",
-      "ext": ".css",
-      "name": "nav",
-      "relativeDirectory": "components/Posts/Navigation",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8605002086,
-      "blocks": 8,
-      "atimeMs": 1532846697886.6265,
-      "mtimeMs": 1532846697888.842,
-      "ctimeMs": 1532846697888.842,
-      "birthtimeMs": 1532842232249.766,
-      "atime": "2018-07-29T06:44:57.887Z",
-      "mtime": "2018-07-29T06:44:57.889Z",
-      "ctime": "2018-07-29T06:44:57.889Z",
-      "birthtime": "2018-07-29T05:30:32.250Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/.DS_Store absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/.DS_Store absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "837ef92c114c2380645bac8af678ad51",
-        "mediaType": "application/octet-stream",
-        "type": "File",
-        "description": "File \"src/.DS_Store\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/.DS_Store",
-      "relativePath": ".DS_Store",
-      "extension": "",
-      "size": 8196,
-      "prettySize": "8.2 kB",
-      "modifiedTime": "2018-07-28T06:50:14.356Z",
-      "accessTime": "2018-07-29T13:13:17.431Z",
-      "changeTime": "2018-07-28T06:50:14.356Z",
-      "birthTime": "2018-07-21T22:27:14.217Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src",
-      "base": ".DS_Store",
-      "ext": "",
-      "name": ".DS_Store",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8604146719,
-      "blocks": 24,
-      "atimeMs": 1532869997430.8628,
-      "mtimeMs": 1532760614356.4932,
-      "ctimeMs": 1532760614356.4932,
-      "birthtimeMs": 1532212034217.386,
-      "atime": "2018-07-29T13:13:17.431Z",
-      "mtime": "2018-07-28T06:50:14.356Z",
-      "ctime": "2018-07-28T06:50:14.356Z",
-      "birthtime": "2018-07-21T22:27:14.217Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/.DS_Store absPath of file": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/.DS_Store absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "3343b110881bc4dc034f2fcd5fcb86bf",
-        "mediaType": "application/octet-stream",
-        "type": "File",
-        "description": "File \"src/components/.DS_Store\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/.DS_Store",
-      "relativePath": "components/.DS_Store",
-      "extension": "",
-      "size": 6148,
-      "prettySize": "6.15 kB",
-      "modifiedTime": "2018-07-28T04:26:15.320Z",
-      "accessTime": "2018-07-29T13:13:17.431Z",
-      "changeTime": "2018-07-28T04:26:15.320Z",
-      "birthTime": "2018-07-27T15:24:32.679Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components",
-      "base": ".DS_Store",
-      "ext": "",
-      "name": ".DS_Store",
-      "relativeDirectory": "components",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8604858985,
-      "blocks": 16,
-      "atimeMs": 1532869997430.9336,
-      "mtimeMs": 1532751975320.0256,
-      "ctimeMs": 1532751975320.0256,
-      "birthtimeMs": 1532705072678.7292,
-      "atime": "2018-07-29T13:13:17.431Z",
-      "mtime": "2018-07-28T04:26:15.320Z",
-      "ctime": "2018-07-28T04:26:15.320Z",
-      "birthtime": "2018-07-27T15:24:32.679Z"
-    },
-    "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: \"First post - So I made a thing\"\ndate: \"2018-07-22\"\n---\n\n### So lets start this blog right? ",
-        "type": "MarkdownRemark",
-        "contentDigest": "8c1433a62685357e57f3cea03926856d",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "First post - So I made a thing",
-        "date": "2018-07-22",
-        "_PARENT": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md absPath of file",
-        "parent": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n### So lets start this blog right? ",
-      "fileAbsolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md",
-      "fields": {
-        "slug": "/posts/firstPost/"
-      }
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/backgroundImage.png absPath of file": {
       "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/backgroundImage.png absPath of file",
@@ -2358,7 +2754,7 @@
       "size": 590225,
       "prettySize": "590 kB",
       "modifiedTime": "2018-07-22T21:51:23.475Z",
-      "accessTime": "2018-07-29T14:54:30.152Z",
+      "accessTime": "2018-07-31T23:35:48.852Z",
       "changeTime": "2018-07-28T06:50:31.858Z",
       "birthTime": "2018-07-22T21:51:23.403Z",
       "root": "/",
@@ -2376,11 +2772,11 @@
       "blksize": 4194304,
       "ino": 8604883303,
       "blocks": 1160,
-      "atimeMs": 1532876070151.5266,
+      "atimeMs": 1533080148851.6604,
       "mtimeMs": 1532296283475.497,
       "ctimeMs": 1532760631858.0288,
       "birthtimeMs": 1532296283403.2908,
-      "atime": "2018-07-29T14:54:30.152Z",
+      "atime": "2018-07-31T23:35:48.852Z",
       "mtime": "2018-07-22T21:51:23.475Z",
       "ctime": "2018-07-28T06:50:31.858Z",
       "birthtime": "2018-07-22T21:51:23.403Z"
@@ -2395,25 +2791,58 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /posts/firstPost/": {
+    "c3YmvLBlIAUi6E460gWQMwUbodyTextNode": {
+      "id": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode",
+      "parent": "c3YmvLBlIAUi6E460gWQMwU",
+      "children": [
+        "c3YmvLBlIAUi6E460gWQMwUbodyTextNode >>> MarkdownRemark"
+      ],
+      "body": "So lets start this blog right?\n\n# Hello\n\n* Check",
+      "internal": {
+        "type": "contentfulBlogPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "So lets start this blog right?\n\n# Hello\n\n* Check",
+        "contentDigest": "879d0e8c0841d7c379a590704346a9f3",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c3YmvLBlIAUi6E460gWQMwUbodyTextNode >>> MarkdownRemark": {
+      "id": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode",
+      "internal": {
+        "content": "So lets start this blog right?\n\n# Hello\n\n* Check",
+        "type": "MarkdownRemark",
+        "contentDigest": "3e228b73f8773c3f26c58ec0f8df7bb3",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode",
+        "parent": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "So lets start this blog right?\n\n# Hello\n\n* Check"
+    },
+    "SitePage /first-post-so-i-made-a-thing": {
       "layout": "index",
-      "jsonName": "posts-first-post.json",
-      "internalComponentName": "ComponentPostsFirstPost",
-      "path": "/posts/firstPost/",
+      "jsonName": "first-post-so-i-made-a-thing.json",
+      "internalComponentName": "ComponentFirstPostSoIMadeAThing",
+      "path": "/first-post-so-i-made-a-thing",
       "component": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/PostPage.js",
       "componentChunkName": "component---src-posts-post-page-js",
       "context": {
-        "slug": "/posts/firstPost/"
+        "slug": "first-post-so-i-made-a-thing"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/PostPage.js",
-      "id": "SitePage /posts/firstPost/",
+      "id": "SitePage /first-post-so-i-made-a-thing",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fd84e5b8025afcfc223bd0b409da4a7b",
+        "contentDigest": "9c4bdda65a0af6b908a4856130c1d212",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2434,7 +2863,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c8c57d21b32e2ba64a222787942223c8",
+        "contentDigest": "f68aca6ce09b15c382db80a7c247051b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2455,7 +2884,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "46c2ffe08eaf1233bfda292c594ce1ba",
+        "contentDigest": "7777f4d7132c7b70bd6a25e8b7152504",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2476,7 +2905,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1e7b9a73df71eace38bc4179a8419468",
+        "contentDigest": "91430c693ba6f1577ed1c3552b6fc149",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2497,7 +2926,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2c38a316f2dc7279cd014c9ced1f2ff1",
+        "contentDigest": "923af87a206672c777efdc73cef360b2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2518,7 +2947,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "018094dd0c9eea482f45d96dacd4a40d",
+        "contentDigest": "95cfa0665c28e945338a6b8261e0bd9c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2539,25 +2968,42 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c134598546c47601f103ba61a528163c",
+        "contentDigest": "6e864506e6c374b17fdb712214818bc2",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
-    "plugins": {},
-    "PLUGINS_HASH": "b6f053fffb58b7d05bef21e3f3140b25"
+    "plugins": {
+      "gatsby-source-contentful": {
+        "i97majv0duw2-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDgyVqw7pCw6rDvcOSw57Du8OqcsOKUgXDksK1w7_CmsKiKUTDjy80B8K3K0NsGxECRMKlw4NsbjjCkXZUH8O1w6k9C3U8C3Ydwr0ewo4Kw6HDjMOuThPCh8K9w7E"
+      }
+    },
+    "PLUGINS_HASH": "90105b9863237da108aad9642baffa6b"
   },
   "componentDataDependencies": {
     "nodes": {
-      "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/firstPost.md absPath of file >>> MarkdownRemark": [
-        "/posts/firstPost/"
+      "c3YmvLBlIAUi6E460gWQMwU": [
+        "/",
+        "/first-post-so-i-made-a-thing"
+      ],
+      "c3YmvLBlIAUi6E460gWQMwUbodyTextNode": [
+        "/blog/",
+        "/",
+        "/first-post-so-i-made-a-thing"
+      ],
+      "c3YmvLBlIAUi6E460gWQMwUbodyTextNode >>> MarkdownRemark": [
+        "/blog/",
+        null,
+        "/",
+        "/first-post-so-i-made-a-thing",
+        null
       ],
       "Site": [
         "/blog/",
-        "/",
-        "LAYOUT___index"
+        "LAYOUT___index",
+        "/"
       ],
       "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/backgroundImage.png absPath of file >> ImageSharp": [
         "LAYOUT___index"
@@ -2571,8 +3017,9 @@
       "SitePage": [
         "/dev-404-page/"
       ],
-      "MarkdownRemark": [
-        "/blog/"
+      "ContentfulBlogPost": [
+        "/blog/",
+        "LAYOUT___index"
       ]
     }
   }

@@ -1,0 +1,2 @@
+webpackJsonp([28470356146769],{351:function(t,o){t.exports={data:{contentfulBlogPost:{title:"First post - So I made a thing",body:{childMarkdownRemark:{html:"<p>So lets start this blog right?</p>\n<h1>Hello</h1>\n<ul>\n<li>Check</li>\n</ul>",excerpt:"So lets start this blog right? Hello Check"}},slug:"first-post-so-i-made-a-thing",id:"c3YmvLBlIAUi6E460gWQMwU",author:"By Thomas Whitaker"}},pathContext:{slug:"first-post-so-i-made-a-thing"}}}});
+//# sourceMappingURL=path---first-post-so-i-made-a-thing-2f750114452c3a5ed109.js.map
