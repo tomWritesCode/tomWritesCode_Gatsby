@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 
 const Span = styled.div`
   display: block;
-  position: fixed;
+  position: absolute;
   top: 23vh;
   left: -10px;
   width: 200px;

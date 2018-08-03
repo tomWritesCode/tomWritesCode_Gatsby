@@ -7,9 +7,9 @@ export default class PostPage extends Component {
     const { data } = this.props;
     if (!data) return null;
     return (
-      <div>
-        <BackButton />
-        <span
+      <div style={{ fontFamily: 'helvetica, sans-serif, arial' }}>
+  <BackButton />
+  <span
           style={{
 						fontFamily: 'helvetica, sans-serif, arial',
 						fontWeight: 'light',
@@ -21,13 +21,13 @@ export default class PostPage extends Component {
         >
           {data.contentfulBlogPost.date}
         </span>
-        <h1 style={{ marginTop: '25px' }}>{data.contentfulBlogPost.title}</h1>
-        <div
+  <h1 style={{ marginTop: '25px' }}>{data.contentfulBlogPost.title}</h1>
+  <div
           dangerouslySetInnerHTML={{
 						__html: data.contentfulBlogPost.body.childMarkdownRemark.html,
 					}}
         />
-        <p style={{
+  <p style={{
 					fontFamily: 'helvetica, sans-serif, arial',
 					float: 'right',
 					fontWeight: 300,
@@ -36,7 +36,7 @@ export default class PostPage extends Component {
         >
           {data.contentfulBlogPost.author}
         </p>
-      </div>
+</div>
     );
   }
 }

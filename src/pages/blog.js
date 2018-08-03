@@ -24,10 +24,10 @@ export const query = graphql`
 					title
 					body {
 						childMarkdownRemark {
-							excerpt
+							excerpt(pruneLength: 250)
 						}
 					}
-          createdAt(formatString: "MMMM DD, YYYY")
+					createdAt(formatString: "MMMM DD, YYYY")
 					slug
 					id
 				}

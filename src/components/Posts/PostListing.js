@@ -10,6 +10,7 @@ const Article = styled.article`
   transition: ease-in-out 200ms;
   text-decoration: none;
   color: #16161d;
+  margin-bottom: 20px;
 
   &:hover {
     box-shadow: 3px 3px 15px #b2b2b2;

@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "6e431ad5add94f716cebe10f9ae8e9a4",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -1122,14 +1132,16 @@
         "title": "< tomWritesCode />",
         "desc": "Website and Blog for Thomas Whitaker - Web Developer"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "/tomWritesCode_Gatsby",
       "polyfill": true,
-      "buildTime": "2018-08-02T03:29:43.781Z",
+      "buildTime": "2018-08-03T00:51:52.819Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "88646b0714f0d16ff1cdd5a12c831350",
+        "contentDigest": "d724b8f69183d5bbb668fcc77f9bee08",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1147,32 +1159,12 @@
         "owner": "gatsby-source-contentful"
       }
     },
-    "c3YmvLBlIAUi6E460gWQMwU": {
-      "title": "First post - So I made a thing",
-      "slug": "first-post-so-i-made-a-thing",
-      "createdAt": "2018-07-29T16:48:09.556Z",
-      "author": "By Thomas Whitaker",
-      "body___NODE": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode",
-      "id": "c3YmvLBlIAUi6E460gWQMwU",
-      "contentful_id": "3YmvLBlIAUi6E460gWQMwU",
-      "updatedAt": "2018-08-01T23:48:53.687Z",
-      "parent": "Blog Post",
-      "children": [
-        "c3YmvLBlIAUi6E460gWQMwUbodyTextNode"
-      ],
-      "internal": {
-        "type": "ContentfulBlogPost",
-        "contentDigest": "5679af6b2133d3f59a8ef303cda46632",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
-    },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/ absPath of file": {
       "id": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/ absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9b2bf66c12c364e10d1ecd7b05ac52ec",
+        "contentDigest": "0161f3d631987f45cddeb98c7334af6c",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -1184,7 +1176,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-07-22T15:19:10.176Z",
-      "accessTime": "2018-08-02T03:29:58.237Z",
+      "accessTime": "2018-08-03T00:52:01.185Z",
       "changeTime": "2018-07-28T11:51:58.845Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
@@ -1202,11 +1194,11 @@
       "blksize": 4194304,
       "ino": 8604044794,
       "blocks": 0,
-      "atimeMs": 1533180598236.5615,
+      "atimeMs": 1533257521185.334,
       "mtimeMs": 1532272750176.401,
       "ctimeMs": 1532778718845.4817,
       "birthtimeMs": 1532196246353.6013,
-      "atime": "2018-08-02T03:29:58.237Z",
+      "atime": "2018-08-03T00:52:01.185Z",
       "mtime": "2018-07-22T15:19:10.176Z",
       "ctime": "2018-07-28T11:51:58.845Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
@@ -1216,7 +1208,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "085aaf8b3c0caf7291a23de6bea9b254",
+        "contentDigest": "21703664c971fe146630881f2c73632b",
         "type": "Directory",
         "description": "Directory \"src/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -1228,7 +1220,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-28T11:31:34.271Z",
-      "accessTime": "2018-08-02T03:29:58.240Z",
+      "accessTime": "2018-08-03T00:52:01.188Z",
       "changeTime": "2018-07-28T11:31:34.271Z",
       "birthTime": "2018-07-21T22:27:14.212Z",
       "root": "/",
@@ -1246,11 +1238,11 @@
       "blksize": 4194304,
       "ino": 8604146714,
       "blocks": 0,
-      "atimeMs": 1533180598240.2,
+      "atimeMs": 1533257521187.5325,
       "mtimeMs": 1532777494270.8396,
       "ctimeMs": 1532777494270.8396,
       "birthtimeMs": 1532212034211.6978,
-      "atime": "2018-08-02T03:29:58.240Z",
+      "atime": "2018-08-03T00:52:01.188Z",
       "mtime": "2018-07-28T11:31:34.271Z",
       "ctime": "2018-07-28T11:31:34.271Z",
       "birthtime": "2018-07-21T22:27:14.212Z"
@@ -1260,7 +1252,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "757341bcad11781bff51ddfbe9ce619e",
+        "contentDigest": "626cfe3c08795b52187dc77d41e641c0",
         "type": "Directory",
         "description": "Directory \"src/layouts\"",
         "owner": "gatsby-source-filesystem"
@@ -1272,7 +1264,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-21T18:04:06.354Z",
-      "accessTime": "2018-08-02T03:29:58.240Z",
+      "accessTime": "2018-08-03T00:52:01.188Z",
       "changeTime": "2018-07-21T18:10:28.316Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
@@ -1290,11 +1282,11 @@
       "blksize": 4194304,
       "ino": 8604044797,
       "blocks": 0,
-      "atimeMs": 1533180598240.0327,
+      "atimeMs": 1533257521187.5647,
       "mtimeMs": 1532196246354.1084,
       "ctimeMs": 1532196628316.2139,
       "birthtimeMs": 1532196246353.8525,
-      "atime": "2018-08-02T03:29:58.240Z",
+      "atime": "2018-08-03T00:52:01.188Z",
       "mtime": "2018-07-21T18:04:06.354Z",
       "ctime": "2018-07-21T18:10:28.316Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
@@ -1304,7 +1296,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b120ca07ad7fe037d4553e79dea5356b",
+        "contentDigest": "ffa3e6dac5f60cc27fb48614e3c4900c",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -1316,7 +1308,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-07-31T14:50:39.703Z",
-      "accessTime": "2018-08-02T03:29:58.240Z",
+      "accessTime": "2018-08-03T00:52:01.188Z",
       "changeTime": "2018-07-31T14:50:39.703Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
@@ -1334,11 +1326,11 @@
       "blksize": 4194304,
       "ino": 8604044795,
       "blocks": 0,
-      "atimeMs": 1533180598239.949,
+      "atimeMs": 1533257521187.5544,
       "mtimeMs": 1533048639703.4312,
       "ctimeMs": 1533048639703.4312,
       "birthtimeMs": 1532196246353.6516,
-      "atime": "2018-08-02T03:29:58.240Z",
+      "atime": "2018-08-03T00:52:01.188Z",
       "mtime": "2018-07-31T14:50:39.703Z",
       "ctime": "2018-07-31T14:50:39.703Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
@@ -1348,7 +1340,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "eff688042f8c1d246a82298fb8137ac1",
+        "contentDigest": "9e9e7e8d0a1b19b830f6533cb431e8d5",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1360,7 +1352,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-07-28T06:47:44.911Z",
-      "accessTime": "2018-08-02T03:29:58.240Z",
+      "accessTime": "2018-08-03T00:52:01.188Z",
       "changeTime": "2018-07-28T06:47:44.911Z",
       "birthTime": "2018-07-21T18:04:06.354Z",
       "root": "/",
@@ -1378,11 +1370,11 @@
       "blksize": 4194304,
       "ino": 8604044800,
       "blocks": 0,
-      "atimeMs": 1533180598240.1772,
+      "atimeMs": 1533257521187.5762,
       "mtimeMs": 1532760464910.5227,
       "ctimeMs": 1532760464910.5227,
       "birthtimeMs": 1532196246354.2295,
-      "atime": "2018-08-02T03:29:58.240Z",
+      "atime": "2018-08-03T00:52:01.188Z",
       "mtime": "2018-07-28T06:47:44.911Z",
       "ctime": "2018-07-28T06:47:44.911Z",
       "birthtime": "2018-07-21T18:04:06.354Z"
@@ -1392,7 +1384,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1eaca8176a816e932e9a7999a26d07b1",
+        "contentDigest": "8416efb55a0b7957c6c1048ba2594f7c",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1404,7 +1396,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-29T16:35:42.129Z",
-      "accessTime": "2018-08-02T03:29:58.240Z",
+      "accessTime": "2018-08-03T00:52:01.188Z",
       "changeTime": "2018-07-29T16:35:42.129Z",
       "birthTime": "2018-07-22T15:19:10.176Z",
       "root": "/",
@@ -1422,11 +1414,11 @@
       "blksize": 4194304,
       "ino": 8604494890,
       "blocks": 0,
-      "atimeMs": 1533180598240.2214,
+      "atimeMs": 1533257521187.6414,
       "mtimeMs": 1532882142128.9302,
       "ctimeMs": 1532882142128.9302,
       "birthtimeMs": 1532272750176.3887,
-      "atime": "2018-08-02T03:29:58.240Z",
+      "atime": "2018-08-03T00:52:01.188Z",
       "mtime": "2018-07-29T16:35:42.129Z",
       "ctime": "2018-07-29T16:35:42.129Z",
       "birthtime": "2018-07-22T15:19:10.176Z"
@@ -1436,7 +1428,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "517e2b695132bb5511fd2fef7bcb5313",
+        "contentDigest": "5dcbd91ec45c78745ca714d56bdc338e",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1448,7 +1440,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-07-31T08:27:11.898Z",
-      "accessTime": "2018-08-02T03:29:58.300Z",
+      "accessTime": "2018-08-03T00:52:01.233Z",
       "changeTime": "2018-07-31T08:27:11.898Z",
       "birthTime": "2018-07-21T22:27:27.140Z",
       "root": "/",
@@ -1466,11 +1458,11 @@
       "blksize": 4194304,
       "ino": 8604164680,
       "blocks": 0,
-      "atimeMs": 1533180598299.5735,
+      "atimeMs": 1533257521233.2688,
       "mtimeMs": 1533025631898.3977,
       "ctimeMs": 1533025631898.3977,
       "birthtimeMs": 1532212047139.7737,
-      "atime": "2018-08-02T03:29:58.300Z",
+      "atime": "2018-08-03T00:52:01.233Z",
       "mtime": "2018-07-31T08:27:11.898Z",
       "ctime": "2018-07-31T08:27:11.898Z",
       "birthtime": "2018-07-21T22:27:27.140Z"
@@ -1480,7 +1472,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e4b9ad5dcf9e1fa0a107f1061df8395f",
+        "contentDigest": "378563b827fd9dad9c04748abad369ca",
         "type": "Directory",
         "description": "Directory \"src/components/Header\"",
         "owner": "gatsby-source-filesystem"
@@ -1492,7 +1484,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-22T13:37:26.026Z",
-      "accessTime": "2018-08-02T03:29:58.243Z",
+      "accessTime": "2018-08-03T00:52:01.189Z",
       "changeTime": "2018-07-22T13:37:26.026Z",
       "birthTime": "2018-07-22T13:37:13.129Z",
       "root": "/",
@@ -1510,11 +1502,11 @@
       "blksize": 4194304,
       "ino": 8604490633,
       "blocks": 0,
-      "atimeMs": 1533180598242.6096,
+      "atimeMs": 1533257521189.1826,
       "mtimeMs": 1532266646026.3967,
       "ctimeMs": 1532266646026.3967,
       "birthtimeMs": 1532266633128.711,
-      "atime": "2018-08-02T03:29:58.243Z",
+      "atime": "2018-08-03T00:52:01.189Z",
       "mtime": "2018-07-22T13:37:26.026Z",
       "ctime": "2018-07-22T13:37:26.026Z",
       "birthtime": "2018-07-22T13:37:13.129Z"
@@ -1524,7 +1516,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "84cb279338e0bc136bac7b57c3acdf6e",
+        "contentDigest": "f6a3e161e7ff34a7928d07233c5a1e35",
         "type": "Directory",
         "description": "Directory \"src/components/Posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1536,7 +1528,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-29T05:30:11.360Z",
-      "accessTime": "2018-08-02T03:29:58.243Z",
+      "accessTime": "2018-08-03T00:52:01.189Z",
       "changeTime": "2018-07-29T05:30:11.360Z",
       "birthTime": "2018-07-22T15:20:50.222Z",
       "root": "/",
@@ -1554,11 +1546,11 @@
       "blksize": 4194304,
       "ino": 8604494947,
       "blocks": 0,
-      "atimeMs": 1533180598242.5647,
+      "atimeMs": 1533257521189.195,
       "mtimeMs": 1532842211359.9175,
       "ctimeMs": 1532842211359.9175,
       "birthtimeMs": 1532272850221.5125,
-      "atime": "2018-08-02T03:29:58.243Z",
+      "atime": "2018-08-03T00:52:01.189Z",
       "mtime": "2018-07-29T05:30:11.360Z",
       "ctime": "2018-07-29T05:30:11.360Z",
       "birthtime": "2018-07-22T15:20:50.222Z"
@@ -1568,7 +1560,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5c155c05d06022180218cffe5ac63859",
+        "contentDigest": "bdd07a6763c134725eb284f624b1dbd0",
         "type": "Directory",
         "description": "Directory \"src/components/Links\"",
         "owner": "gatsby-source-filesystem"
@@ -1580,7 +1572,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-31T14:50:34.298Z",
-      "accessTime": "2018-08-02T03:29:58.243Z",
+      "accessTime": "2018-08-03T00:52:01.189Z",
       "changeTime": "2018-07-31T14:50:39.703Z",
       "birthTime": "2018-07-31T14:49:44.183Z",
       "root": "/",
@@ -1598,11 +1590,11 @@
       "blksize": 4194304,
       "ino": 8605236872,
       "blocks": 0,
-      "atimeMs": 1533180598242.632,
+      "atimeMs": 1533257521189.2073,
       "mtimeMs": 1533048634297.9858,
       "ctimeMs": 1533048639703.431,
       "birthtimeMs": 1533048584182.7117,
-      "atime": "2018-08-02T03:29:58.243Z",
+      "atime": "2018-08-03T00:52:01.189Z",
       "mtime": "2018-07-31T14:50:34.298Z",
       "ctime": "2018-07-31T14:50:39.703Z",
       "birthtime": "2018-07-31T14:49:44.183Z"
@@ -1612,7 +1604,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3426a0104d5de220e1d11f9fe4bfd329",
+        "contentDigest": "c08691b7d8295ef88cb19e7a706ae93f",
         "type": "Directory",
         "description": "Directory \"src/components/Posts/Navigation\"",
         "owner": "gatsby-source-filesystem"
@@ -1624,7 +1616,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-07-29T05:30:32.250Z",
-      "accessTime": "2018-08-02T03:29:58.244Z",
+      "accessTime": "2018-08-03T00:52:01.190Z",
       "changeTime": "2018-07-29T05:30:32.250Z",
       "birthTime": "2018-07-29T05:30:11.360Z",
       "root": "/",
@@ -1642,11 +1634,11 @@
       "blksize": 4194304,
       "ino": 8605002064,
       "blocks": 0,
-      "atimeMs": 1533180598243.8665,
+      "atimeMs": 1533257521190.3022,
       "mtimeMs": 1532842232249.7786,
       "ctimeMs": 1532842232249.7786,
       "birthtimeMs": 1532842211359.899,
-      "atime": "2018-08-02T03:29:58.244Z",
+      "atime": "2018-08-03T00:52:01.190Z",
       "mtime": "2018-07-29T05:30:32.250Z",
       "ctime": "2018-07-29T05:30:32.250Z",
       "birthtime": "2018-07-29T05:30:11.360Z"
@@ -1926,7 +1918,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7e856616f55129909f0615f0556b1fa3",
+        "contentDigest": "b4d34579426d0d371cd77b38a3cda12f",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/posts/PostPage.js\"",
@@ -1936,11 +1928,11 @@
       "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts/PostPage.js",
       "relativePath": "posts/PostPage.js",
       "extension": "js",
-      "size": 1233,
-      "prettySize": "1.23 kB",
-      "modifiedTime": "2018-08-01T23:55:43.191Z",
-      "accessTime": "2018-08-01T23:55:43.191Z",
-      "changeTime": "2018-08-01T23:55:43.191Z",
+      "size": 1252,
+      "prettySize": "1.25 kB",
+      "modifiedTime": "2018-08-03T00:50:17.409Z",
+      "accessTime": "2018-08-03T00:50:17.408Z",
+      "changeTime": "2018-08-03T00:50:17.409Z",
       "birthTime": "2018-07-22T18:56:11.524Z",
       "root": "/",
       "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/posts",
@@ -1957,13 +1949,13 @@
       "blksize": 4194304,
       "ino": 8604497133,
       "blocks": 8,
-      "atimeMs": 1533167743190.5378,
-      "mtimeMs": 1533167743191.3164,
-      "ctimeMs": 1533167743191.3164,
+      "atimeMs": 1533257417407.9497,
+      "mtimeMs": 1533257417408.7842,
+      "ctimeMs": 1533257417408.7842,
       "birthtimeMs": 1532285771523.7156,
-      "atime": "2018-08-01T23:55:43.191Z",
-      "mtime": "2018-08-01T23:55:43.191Z",
-      "ctime": "2018-08-01T23:55:43.191Z",
+      "atime": "2018-08-03T00:50:17.408Z",
+      "mtime": "2018-08-03T00:50:17.409Z",
+      "ctime": "2018-08-03T00:50:17.409Z",
       "birthtime": "2018-07-22T18:56:11.524Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/blog.js absPath of file": {
@@ -1971,7 +1963,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "41f628e290cab0d4af2e395dc1e5afa6",
+        "contentDigest": "344eee2ed463ead2edb2ba6a8670294d",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/blog.js\"",
@@ -1981,11 +1973,11 @@
       "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/blog.js",
       "relativePath": "pages/blog.js",
       "extension": "js",
-      "size": 629,
-      "prettySize": "629 B",
-      "modifiedTime": "2018-07-30T05:45:25.593Z",
-      "accessTime": "2018-07-31T23:27:35.276Z",
-      "changeTime": "2018-07-30T05:45:25.593Z",
+      "size": 642,
+      "prettySize": "642 B",
+      "modifiedTime": "2018-08-02T04:15:29.218Z",
+      "accessTime": "2018-08-02T04:15:29.215Z",
+      "changeTime": "2018-08-02T04:15:29.218Z",
       "birthTime": "2018-07-28T06:47:44.910Z",
       "root": "/",
       "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages",
@@ -2002,13 +1994,13 @@
       "blksize": 4194304,
       "ino": 8604883166,
       "blocks": 8,
-      "atimeMs": 1533079655276.3687,
-      "mtimeMs": 1532929525592.8706,
-      "ctimeMs": 1532929525592.8706,
+      "atimeMs": 1533183329215.2292,
+      "mtimeMs": 1533183329218.4568,
+      "ctimeMs": 1533183329218.4568,
       "birthtimeMs": 1532760464909.6965,
-      "atime": "2018-07-31T23:27:35.276Z",
-      "mtime": "2018-07-30T05:45:25.593Z",
-      "ctime": "2018-07-30T05:45:25.593Z",
+      "atime": "2018-08-02T04:15:29.215Z",
+      "mtime": "2018-08-02T04:15:29.218Z",
+      "ctime": "2018-08-02T04:15:29.218Z",
       "birthtime": "2018-07-28T06:47:44.910Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/pages/about.js absPath of file": {
@@ -2106,7 +2098,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bdc0fe26c92295eec322bf0c4550fa9a",
+        "contentDigest": "13df57dfdf8bc62bb47f13fceca11f72",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/backButton.js\"",
@@ -2116,11 +2108,11 @@
       "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/backButton.js",
       "relativePath": "components/backButton.js",
       "extension": "js",
-      "size": 881,
-      "prettySize": "881 B",
-      "modifiedTime": "2018-07-30T02:31:27.810Z",
-      "accessTime": "2018-07-31T23:27:31.857Z",
-      "changeTime": "2018-07-30T02:31:27.810Z",
+      "size": 884,
+      "prettySize": "884 B",
+      "modifiedTime": "2018-08-03T00:51:38.195Z",
+      "accessTime": "2018-08-03T00:51:38.194Z",
+      "changeTime": "2018-08-03T00:51:38.195Z",
       "birthTime": "2018-07-28T10:42:47.601Z",
       "root": "/",
       "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components",
@@ -2137,13 +2129,13 @@
       "blksize": 4194304,
       "ino": 8604888942,
       "blocks": 8,
-      "atimeMs": 1533079651856.9626,
-      "mtimeMs": 1532917887810.2356,
-      "ctimeMs": 1532917887810.2356,
+      "atimeMs": 1533257498194.42,
+      "mtimeMs": 1533257498194.731,
+      "ctimeMs": 1533257498194.731,
       "birthtimeMs": 1532774567600.8672,
-      "atime": "2018-07-31T23:27:31.857Z",
-      "mtime": "2018-07-30T02:31:27.810Z",
-      "ctime": "2018-07-30T02:31:27.810Z",
+      "atime": "2018-08-03T00:51:38.194Z",
+      "mtime": "2018-08-03T00:51:38.195Z",
+      "ctime": "2018-08-03T00:51:38.195Z",
       "birthtime": "2018-07-28T10:42:47.601Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/.DS_Store absPath of file": {
@@ -2649,7 +2641,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "191c11e69a432e3b3c5fd98e884d30c0",
+        "contentDigest": "acb1b33367cf895ccd5b5f9aa38064aa",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/components/Posts/PostListing.js\"",
@@ -2659,11 +2651,11 @@
       "absolutePath": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/PostListing.js",
       "relativePath": "components/Posts/PostListing.js",
       "extension": "js",
-      "size": 972,
-      "prettySize": "972 B",
-      "modifiedTime": "2018-07-31T23:13:28.766Z",
-      "accessTime": "2018-07-31T23:30:36.264Z",
-      "changeTime": "2018-07-31T23:13:28.766Z",
+      "size": 995,
+      "prettySize": "995 B",
+      "modifiedTime": "2018-08-02T04:01:27.866Z",
+      "accessTime": "2018-08-02T04:01:27.865Z",
+      "changeTime": "2018-08-02T04:01:27.866Z",
       "birthTime": "2018-07-22T15:21:10.194Z",
       "root": "/",
       "dir": "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts",
@@ -2680,13 +2672,13 @@
       "blksize": 4194304,
       "ino": 8604494954,
       "blocks": 8,
-      "atimeMs": 1533079836264.3528,
-      "mtimeMs": 1533078808766.2947,
-      "ctimeMs": 1533078808766.2947,
+      "atimeMs": 1533182487864.7402,
+      "mtimeMs": 1533182487865.623,
+      "ctimeMs": 1533182487865.623,
       "birthtimeMs": 1532272870194.3062,
-      "atime": "2018-07-31T23:30:36.264Z",
-      "mtime": "2018-07-31T23:13:28.766Z",
-      "ctime": "2018-07-31T23:13:28.766Z",
+      "atime": "2018-08-02T04:01:27.865Z",
+      "mtime": "2018-08-02T04:01:27.866Z",
+      "ctime": "2018-08-02T04:01:27.866Z",
       "birthtime": "2018-07-22T15:21:10.194Z"
     },
     "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/components/Posts/Navigation/Navigation.js absPath of file": {
@@ -2791,38 +2783,58 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "c3YmvLBlIAUi6E460gWQMwUbodyTextNode": {
-      "id": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode",
-      "parent": "c3YmvLBlIAUi6E460gWQMwU",
+    "c6CjXURp1dYuIa6kQgEuyiW": {
+      "title": "First post - So I made a thing",
+      "slug": "first-post-so-i-made-a-thing",
+      "createdAt": "2018-08-02T04:16:31.794Z",
+      "author": "By Thomas Whitaker",
+      "body___NODE": "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode",
+      "id": "c6CjXURp1dYuIa6kQgEuyiW",
+      "contentful_id": "6CjXURp1dYuIa6kQgEuyiW",
+      "updatedAt": "2018-08-03T00:42:28.361Z",
+      "parent": "Blog Post",
       "children": [
-        "c3YmvLBlIAUi6E460gWQMwUbodyTextNode >>> MarkdownRemark"
+        "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode"
       ],
-      "body": "So lets start this blog right?\n\n# Hello\n\n* Check",
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "dc4c3f35e29bc094190bb78b7a643cfd",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode": {
+      "id": "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode",
+      "parent": "c6CjXURp1dYuIa6kQgEuyiW",
+      "children": [
+        "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode >>> MarkdownRemark"
+      ],
+      "body": "__So lets start this blog right?__\n\nWell as this is one of my first posts to the blog I figure that we should talk about the blog itself, freshly built just for this.\n\nI have been meaning to write a blog now for a long time. Especially since I started getting into web development, well better late than never here we are. Me being stubborn and in the mindset of wanting to have things that I built, having a blog on a prebuilt system like Wordpress or something like that felt like a bit of a letdown and surely how hard could it be to make something from scratch right……. Here we are months and months later nearly finishing a blog, enough said.\n\nOne of the things I love about web development is the fact that it is never stalling or slowing down, the amount of things to know is growing at such a rapid pace that it at times has been incredibly daunting and at times has made me questions what I am doing here to begin with. I think this fact about the industry is one of the biggest reasons that I want to make Web Development my full time endeavour, being in an industry that is always evolving at such a rapid pace is an incredibly appealing thing to me.\n\nSo what took me so long with building this site? Well short answer is skill and decision making. I have been learning React for about 3-4 months now and I really like it, I am getting better and better about what it takes to build things and I love the component nature of the build. I started going through Scott Tolinski’s Pro Gatsby tutorial as well and was really interested in how fast Gatsby was. \n\nSo through doing the tutorial and then starting again to mould a new site to my needs the current stack for this site is as follows.\n\n* React\n* Gatsby\n* GraphQL\n* Styled Components\n* Contentful (Where my blog posts are hosted)\n* Netlify (Where the whole thing comes together)\n\nSo before this tutorial I had never used Gatsby, Never used GraphQL, had a little experience with Styled Components, Looked into Contentful but hadn’t built anything and had put a project on Netlify but never looked at some of the amazing things you can build into it. So this project was one hell of a learning experience to say the least. ",
       "internal": {
         "type": "contentfulBlogPostBodyTextNode",
         "mediaType": "text/markdown",
-        "content": "So lets start this blog right?\n\n# Hello\n\n* Check",
-        "contentDigest": "879d0e8c0841d7c379a590704346a9f3",
+        "content": "__So lets start this blog right?__\n\nWell as this is one of my first posts to the blog I figure that we should talk about the blog itself, freshly built just for this.\n\nI have been meaning to write a blog now for a long time. Especially since I started getting into web development, well better late than never here we are. Me being stubborn and in the mindset of wanting to have things that I built, having a blog on a prebuilt system like Wordpress or something like that felt like a bit of a letdown and surely how hard could it be to make something from scratch right……. Here we are months and months later nearly finishing a blog, enough said.\n\nOne of the things I love about web development is the fact that it is never stalling or slowing down, the amount of things to know is growing at such a rapid pace that it at times has been incredibly daunting and at times has made me questions what I am doing here to begin with. I think this fact about the industry is one of the biggest reasons that I want to make Web Development my full time endeavour, being in an industry that is always evolving at such a rapid pace is an incredibly appealing thing to me.\n\nSo what took me so long with building this site? Well short answer is skill and decision making. I have been learning React for about 3-4 months now and I really like it, I am getting better and better about what it takes to build things and I love the component nature of the build. I started going through Scott Tolinski’s Pro Gatsby tutorial as well and was really interested in how fast Gatsby was. \n\nSo through doing the tutorial and then starting again to mould a new site to my needs the current stack for this site is as follows.\n\n* React\n* Gatsby\n* GraphQL\n* Styled Components\n* Contentful (Where my blog posts are hosted)\n* Netlify (Where the whole thing comes together)\n\nSo before this tutorial I had never used Gatsby, Never used GraphQL, had a little experience with Styled Components, Looked into Contentful but hadn’t built anything and had put a project on Netlify but never looked at some of the amazing things you can build into it. So this project was one hell of a learning experience to say the least. ",
+        "contentDigest": "f4a05be05ca33302c6b1f2aff7052d9f",
         "owner": "gatsby-source-contentful"
       }
     },
-    "c3YmvLBlIAUi6E460gWQMwUbodyTextNode >>> MarkdownRemark": {
-      "id": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode >>> MarkdownRemark",
+    "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode >>> MarkdownRemark": {
+      "id": "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode >>> MarkdownRemark",
       "children": [],
-      "parent": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode",
+      "parent": "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode",
       "internal": {
-        "content": "So lets start this blog right?\n\n# Hello\n\n* Check",
+        "content": "__So lets start this blog right?__\n\nWell as this is one of my first posts to the blog I figure that we should talk about the blog itself, freshly built just for this.\n\nI have been meaning to write a blog now for a long time. Especially since I started getting into web development, well better late than never here we are. Me being stubborn and in the mindset of wanting to have things that I built, having a blog on a prebuilt system like Wordpress or something like that felt like a bit of a letdown and surely how hard could it be to make something from scratch right……. Here we are months and months later nearly finishing a blog, enough said.\n\nOne of the things I love about web development is the fact that it is never stalling or slowing down, the amount of things to know is growing at such a rapid pace that it at times has been incredibly daunting and at times has made me questions what I am doing here to begin with. I think this fact about the industry is one of the biggest reasons that I want to make Web Development my full time endeavour, being in an industry that is always evolving at such a rapid pace is an incredibly appealing thing to me.\n\nSo what took me so long with building this site? Well short answer is skill and decision making. I have been learning React for about 3-4 months now and I really like it, I am getting better and better about what it takes to build things and I love the component nature of the build. I started going through Scott Tolinski’s Pro Gatsby tutorial as well and was really interested in how fast Gatsby was. \n\nSo through doing the tutorial and then starting again to mould a new site to my needs the current stack for this site is as follows.\n\n* React\n* Gatsby\n* GraphQL\n* Styled Components\n* Contentful (Where my blog posts are hosted)\n* Netlify (Where the whole thing comes together)\n\nSo before this tutorial I had never used Gatsby, Never used GraphQL, had a little experience with Styled Components, Looked into Contentful but hadn’t built anything and had put a project on Netlify but never looked at some of the amazing things you can build into it. So this project was one hell of a learning experience to say the least. ",
         "type": "MarkdownRemark",
-        "contentDigest": "3e228b73f8773c3f26c58ec0f8df7bb3",
+        "contentDigest": "1beb93370c1b77178785d963fa47bd17",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "",
-        "_PARENT": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode",
-        "parent": "c3YmvLBlIAUi6E460gWQMwUbodyTextNode"
+        "_PARENT": "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode",
+        "parent": "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode"
       },
       "excerpt": "",
-      "rawMarkdownBody": "So lets start this blog right?\n\n# Hello\n\n* Check"
+      "rawMarkdownBody": "__So lets start this blog right?__\n\nWell as this is one of my first posts to the blog I figure that we should talk about the blog itself, freshly built just for this.\n\nI have been meaning to write a blog now for a long time. Especially since I started getting into web development, well better late than never here we are. Me being stubborn and in the mindset of wanting to have things that I built, having a blog on a prebuilt system like Wordpress or something like that felt like a bit of a letdown and surely how hard could it be to make something from scratch right……. Here we are months and months later nearly finishing a blog, enough said.\n\nOne of the things I love about web development is the fact that it is never stalling or slowing down, the amount of things to know is growing at such a rapid pace that it at times has been incredibly daunting and at times has made me questions what I am doing here to begin with. I think this fact about the industry is one of the biggest reasons that I want to make Web Development my full time endeavour, being in an industry that is always evolving at such a rapid pace is an incredibly appealing thing to me.\n\nSo what took me so long with building this site? Well short answer is skill and decision making. I have been learning React for about 3-4 months now and I really like it, I am getting better and better about what it takes to build things and I love the component nature of the build. I started going through Scott Tolinski’s Pro Gatsby tutorial as well and was really interested in how fast Gatsby was. \n\nSo through doing the tutorial and then starting again to mould a new site to my needs the current stack for this site is as follows.\n\n* React\n* Gatsby\n* GraphQL\n* Styled Components\n* Contentful (Where my blog posts are hosted)\n* Netlify (Where the whole thing comes together)\n\nSo before this tutorial I had never used Gatsby, Never used GraphQL, had a little experience with Styled Components, Looked into Contentful but hadn’t built anything and had put a project on Netlify but never looked at some of the amazing things you can build into it. So this project was one hell of a learning experience to say the least. "
     },
     "SitePage /first-post-so-i-made-a-thing": {
       "layout": "index",
@@ -2842,7 +2854,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9c4bdda65a0af6b908a4856130c1d212",
+        "contentDigest": "244f1b8c53328d8e4c6bb259e78354b2",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2863,7 +2875,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f68aca6ce09b15c382db80a7c247051b",
+        "contentDigest": "a687eb8c93fc96b80376f027f7dafb31",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2884,7 +2896,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7777f4d7132c7b70bd6a25e8b7152504",
+        "contentDigest": "9e4087a732c077d0a46ac5a08db11c18",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2905,7 +2917,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "91430c693ba6f1577ed1c3552b6fc149",
+        "contentDigest": "a3485a31f91fc22fb78831c649b80771",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2926,7 +2938,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "923af87a206672c777efdc73cef360b2",
+        "contentDigest": "77181a354d10d3a5a354226d65c80452",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2947,7 +2959,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "95cfa0665c28e945338a6b8261e0bd9c",
+        "contentDigest": "5982331d6b5afb0ddc18cf945af42bc5",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2968,7 +2980,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6e864506e6c374b17fdb712214818bc2",
+        "contentDigest": "d57e6749b5cf3d03b897958a0e2d9e70",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -2977,7 +2989,7 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "i97majv0duw2-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDgyVqw7pCw6rDvcOSw57Du8OqcsOKUgXDksK1w7_CmsKiKUTDjy80B8K3K0NsGxECRMKlw4NsbjjCkXZUH8O1w6k9C3U8C3Ydwr0ewo4Kw6HDjMOuThPCh8K9w7E"
+        "i97majv0duw2-master": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyY-w6fDoh_CpFlPZMKvw40fw6LCnQBcw71PQsOLC2HDjSlcYnMlfsKZQl47O2pDwp7DgsOZGwAYw6IBw5tGw7jDlcKYFMOPRsOrwpNYw453MMOYGsKKYxxIwqQ"
       }
     },
     "PLUGINS_HASH": "90105b9863237da108aad9642baffa6b"
@@ -2989,21 +3001,21 @@
         "/first-post-so-i-made-a-thing"
       ],
       "c3YmvLBlIAUi6E460gWQMwUbodyTextNode": [
-        "/blog/",
-        "/",
-        "/first-post-so-i-made-a-thing"
-      ],
-      "c3YmvLBlIAUi6E460gWQMwUbodyTextNode >>> MarkdownRemark": [
-        "/blog/",
-        null,
         "/",
         "/first-post-so-i-made-a-thing",
-        null
+        "/blog/"
+      ],
+      "c3YmvLBlIAUi6E460gWQMwUbodyTextNode >>> MarkdownRemark": [
+        null,
+        "/",
+        null,
+        "/first-post-so-i-made-a-thing",
+        "/blog/"
       ],
       "Site": [
-        "/blog/",
         "LAYOUT___index",
-        "/"
+        "/",
+        "/blog/"
       ],
       "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/backgroundImage.png absPath of file >> ImageSharp": [
         "LAYOUT___index"
@@ -3011,6 +3023,32 @@
       "/Users/thomaswhitaker/Desktop/tomWritesCode/tomWritesCode_Gatsby/src/assets/images/backgroundImage.png absPath of file": [
         null,
         null
+      ],
+      "pUAaONG0124qYUQWu6YI8bodyTextNode >>> MarkdownRemark": [
+        null,
+        "/test-test",
+        "/blog/",
+        null
+      ],
+      "pUAaONG0124qYUQWu6YI8bodyTextNode": [
+        "/test-test",
+        "/blog/"
+      ],
+      "pUAaONG0124qYUQWu6YI8": [
+        "/test-test"
+      ],
+      "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode >>> MarkdownRemark": [
+        null,
+        "/blog/",
+        "/first-post-so-i-made-a-thing",
+        null
+      ],
+      "c6CjXURp1dYuIa6kQgEuyiWbodyTextNode": [
+        "/blog/",
+        "/first-post-so-i-made-a-thing"
+      ],
+      "c6CjXURp1dYuIa6kQgEuyiW": [
+        "/first-post-so-i-made-a-thing"
       ]
     },
     "connections": {
@@ -3018,8 +3056,8 @@
         "/dev-404-page/"
       ],
       "ContentfulBlogPost": [
-        "/blog/",
-        "LAYOUT___index"
+        "LAYOUT___index",
+        "/blog/"
       ]
     }
   }
