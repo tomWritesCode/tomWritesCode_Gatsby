@@ -47,7 +47,7 @@ export const query = graphql`
 				...GatsbyImageSharpSizes
 			}
 		}
-		allContentfulBlogPost {
+		allContentfulTomWritesCode {
 			edges {
 				node {
 					title

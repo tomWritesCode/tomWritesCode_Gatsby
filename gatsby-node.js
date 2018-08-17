@@ -5,7 +5,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     graphql(`
 			{
-			  allContentfulBlogPost {
+			  allContentfulTomWritesCode {
 					edges {
 						node {	
               id
@@ -15,7 +15,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 				}
 			}
 		`).then((result) => {
-      result.data.allContentfulblogPost.edges.forEach(({ node }) => {
+      result.data.allContentfulTomWritesCode.edges.forEach(({ node }) => {
         createPage({
           path: node.slug,
           component: path.resolve('./src/posts/PostPage.js'),

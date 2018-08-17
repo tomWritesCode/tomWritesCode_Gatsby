@@ -19,12 +19,12 @@ export default class PostPage extends Component {
 						marginTop: '25px',
 					}}
         >
-          {data.contentfulBlogPost.date}
+          {data.contentfulTomWritesCode.date}
         </span>
-        <h1 style={{ marginTop: '25px' }}>{data.contentfulBlogPost.title}</h1>
+        <h1 style={{ marginTop: '25px' }}>{data.contentfulTomWritesCode.title}</h1>
         <div
           dangerouslySetInnerHTML={{
-						__html: data.contentfulBlogPost.body.childMarkdownRemark.html,
+						__html: data.contentfulTomWritesCode.body.childMarkdownRemark.html,
 					}}
         />
         <p style={{
@@ -43,7 +43,7 @@ export default class PostPage extends Component {
 
 export const query = graphql`
 	query BlogPostQuery($slug: String!) {
-		contentfulBlogPost(slug: { eq: $slug }) {
+		contentfulTomWritesCode(slug: { eq: $slug }) {
 			title
 			body {
 				childMarkdownRemark {

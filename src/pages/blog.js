@@ -4,7 +4,7 @@ import PostListing from '../components/Posts/PostListing';
 const IndexPage = ({ data }) => (
   <div>
     <h2>The Blog</h2>
-    {data.allContentfulBlogPost.edges.map(({ node }) => <PostListing key={node.id} post={node} />)}
+    {data.allContentfulTomWritesCode.edges.map(({ node }) => <PostListing key={node.id} post={node} />)}
   </div>
 );
 
@@ -18,7 +18,7 @@ export const query = graphql`
 				desc
 			}
 		}
-		allContentfulBlogPost {
+		allContentfulTomWritesCode {
 			edges {
 				node {
 					title
