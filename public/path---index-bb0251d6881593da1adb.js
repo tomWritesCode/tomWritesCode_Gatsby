@@ -1,2 +1,2 @@
-webpackJsonp([0x81b8806e4260],{352:function(e,t){e.exports={data:{site:{siteMetadata:{title:"< tomWritesCode />",desc:"Website and Blog for Thomas Whitaker - Web Developer"}}},pathContext:{}}}});
+webpackJsonp([0x81b8806e4260],{353:function(e,t){e.exports={data:{site:{siteMetadata:{title:"< tomWritesCode />",desc:"Website and Blog for Thomas Whitaker - Web Developer"}}},pathContext:{}}}});
 //# sourceMappingURL=path---index-bb0251d6881593da1adb.js.map
