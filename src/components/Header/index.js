@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
 
-import Navigation from '../Posts/Navigation/Navigation';
+import Navigation from '../Navigation/Navigation';
 
 const HeaderWrapper = styled.div`
 	background: #2285cc;

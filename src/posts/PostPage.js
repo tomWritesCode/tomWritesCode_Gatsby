@@ -8,8 +8,8 @@ export default class PostPage extends Component {
     if (!data) return null;
     return (
       <div style={{ fontFamily: 'helvetica, sans-serif, arial' }}>
-  <BackButton />
-  <span
+        <BackButton />
+        <span
           style={{
 						fontFamily: 'helvetica, sans-serif, arial',
 						fontWeight: 'light',
@@ -21,22 +21,22 @@ export default class PostPage extends Component {
         >
           {data.contentfulBlogPost.date}
         </span>
-  <h1 style={{ marginTop: '25px' }}>{data.contentfulBlogPost.title}</h1>
-  <div
+        <h1 style={{ marginTop: '25px' }}>{data.contentfulBlogPost.title}</h1>
+        <div
           dangerouslySetInnerHTML={{
 						__html: data.contentfulBlogPost.body.childMarkdownRemark.html,
 					}}
         />
-  <p style={{
+        <p style={{
 					fontFamily: 'helvetica, sans-serif, arial',
 					float: 'right',
 					fontWeight: 300,
 					marginRight: '20px',
  }}
         >
-          {data.contentfulBlogPost.author}
+    By Thomas Whitaker
         </p>
-</div>
+      </div>
     );
   }
 }
