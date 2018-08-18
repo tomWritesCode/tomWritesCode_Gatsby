@@ -6,8 +6,9 @@ const Body = styled.div`
 	font-family: Helvetica, sans-serif, Arial;
 `;
 const GitHub = 'https://github.com/tomWritesCode';
-const CodePen = 'https://github.com/tomWritesCode';
-const Twitter = 'https://github.com/tomWritesCode';
+const CodePen = 'https://codepen.io/tomWritesCode/';
+const Twitter = 'https://twitter.com/tomWritesCode?lang=en';
+const Instagram = 'https://www.instagram.com/framelines.photo/';
 
 const A = styled.a`
 	text-decoration: none;
@@ -27,12 +28,12 @@ const Connection = A.extend``;
 
 const IndexPage = ({ data }) => (
   <div>
-    <h2>Hey there, welcome to the site</h2>
+    <h2>Hey there, my name is Tom and I am a Web Developer.</h2>
 
     <Body>
-      <h4>So you're here.</h4>
+      <h4>Thanks for coming.</h4>
       <p>
-				So now that you have dropped by take a look around and check out some of my work on{' '}
+				Now that you have dropped by take a look around and check out some of my work on{' '}
         <A href={GitHub} target="_blank">
 					GitHub
         </A>, have a look at some of things I have built on{' '}
@@ -41,11 +42,11 @@ const IndexPage = ({ data }) => (
         </A>, watch me ramble and fangirl on{' '}
         <A href={Twitter} target="_blank">
 					Twitter
-        </A>{' '}
-				or. If you're really, really bored you could have a look at the{' '}
-        <Link style={{ textDecoration: 'none' }} to="/blog/">
-          <A>blog</A>
-        </Link>.
+        </A>, or if you want to see my photography stuff which is the other side to things I love doing check out my <A href={Instagram} target="_blank">
+					Instagram
+        </A>.
+					<br /> <br />
+				
       </p>
     </Body>
   </div>
